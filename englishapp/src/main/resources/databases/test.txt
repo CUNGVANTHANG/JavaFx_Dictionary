@@ -70,11 +70,6 @@
 *  danh từ
 - bom nguyên tử
 
-@a-going /ə'gouiɳ/
-*  tính từ & phó từ
-- đang chạy, đang chuyển động; đang hoạt động, đang tiến hành
-=to set a-going+ cho chuyển động, cho chạy (máy...)
-
 @a-plenty /ə'plenti/
 *  phó từ
 - (từ Mỹ,nghĩa Mỹ) nhiều, dồi dào, phong phú
@@ -96,3 +91,157 @@
 @aard-wolf /'ɑ:d,wulf/
 *  danh từ
 - (động vật học) chó sói đất (Nam Phi)
+
+@aasvogel /'ɑ:sfougəl/
+*  danh từ
+- (động vật học) con kên kên (Nam Phi)
+
+@aba /'ɑ:bə/
+*  danh từ
+- áo aba (áo ngoài giống hình cái túi người A-Rập)
+
+@abaci /'æbəkəs/
+*  danh từ,  số nhiều abaci,  abacuses
+- bàn tính
+=to move counters of an abacus; to work an abacus+ tính bằng bàn tính, gảy bàn tính
+- (kiến trúc)
+- đầu cột, đỉnh cột
+
+@aback /ə'bæk/
+*  phó từ
+- lùi lại, trở lại phía sau
+=to stand aback from+ đứng lùi lại để tránh
+- (hàng hải) bị thổi ép vào cột buồm (buồm)
+=to be taken aback+ (hàng hải) bị gió thổi ép vào cột buồm
+- (nghĩa bóng) sửng sốt, ngạc nhiên
+=to be taken aback by the news+ sửng sốt vì cái tin đó
+
+@abacus /'æbəkəs/
+*  danh từ,  số nhiều abaci,  abacuses
+- bàn tính
+=to move counters of an abacus; to work an abacus+ tính bằng bàn tính, gảy bàn tính
+- (kiến trúc)
+- đầu cột, đỉnh cột
+
+@abaddon /ə'bædən/
+*  danh từ
+- âm ti, địa ngục
+- con quỷ
+
+@abaft /ə'bɑ:ft/
+*  phó từ
+- (hàng hải) ở phía sau bánh lái, gần phía bánh lái
+*  giới từ
+- (hàng hải) sau, ở đằng sau, ở phía sau
+=abaft the mast+ sau cột buồm
+
+@abalone /,æbə'louni/
+*  danh từ
+- (từ Mỹ,nghĩa Mỹ) bào ngư
+
+@abandon /ə'bændən/
+*  ngoại động từ
+- bộm (nhiếp ảnh) (nhiếp ảnh) (từ Mỹ,nghĩa Mỹ) từ bỏ; bỏ rơi, ruồng bỏ
+=to abandon a hope+ từ bỏ hy vọng
+=to abandon one's wife and children+ ruồng bỏ vợ con
+=to abandon oneself to+ đắm đuối, chìm đắm vào (nỗi thất vọng...)
+*  danh từ
+- sự phóng túng, sự tự do, sự buông thả
+=with abandon+ phóng túng
+
+@abandoned /ə'bændənd/
+*  tính từ
+- bị bỏ rơi, bị ruồng bỏ
+- phóng đãng, truỵ lạc
+
+@abandoner /ə'bændənə/
+*  danh từ
+- (pháp lý) người rút đơn
+
+@abandonment /ə'bændənmənt/
+*  danh từ
+- sự bỏ, sự từ bỏ, sự bỏ rơi, sự ruồng bỏ
+- tình trạng bị bỏ rơi, tình trạng bị ruồng bỏ
+- sự phóng túng, sự tự do, sự buông thả
+
+@abase /ə'beis/
+*  ngoại động từ
+- làm hạ phẩm giá, làm mất thể diện, làm nhục
+=to abase one-self+ tự hạ mình
+
+@abasement /ə'beismənt/
+*  danh từ
+- sự làm hạ phẩm giá, sự làm mất thể diện, sự làm nhục
+
+@abash /ə'bæʃ/
+*  ngoại động từ
+- làm bối rối, làm lúng túng, làm luống cuống
+
+@abashment /ə'bæʃmənt/
+*  danh từ
+- sự bối rối, sự lúng túng, sự luống cuống
+
+@abask /ə'bɑ:sk/
+*  phó từ
+- (thơ ca) dưới ánh nắng, dưới ánh mặt trời, trong ánh lửa ấm
+
+@abatable /ə'beitəbl/
+*  tính từ
+- có thể làm dịu, có thể làm yếu đi, có thể giảm bớt
+- có thể hạ, có thể bớt
+- có thể làm nhụt
+- có thể chấm dứt, có thể thanh trừ
+- (pháp lý) có thể huỷ bỏ, có thể thủ tiêu
+
+@abate /ə'beit/
+*  ngoại động từ
+- làm dịu đi, làm yếu đi, làm giảm bớt
+=to abate a pain+ làm dịu đau
+- hạ (giá), bớt (giá)
+- làm nhụt (nhụt khí...)
+- làm cùn (lưỡi dao...)
+- thanh toán, làm mất hết (những điều khó chịu, bực bội)
+- (pháp lý) huỷ bỏ, thủ tiêu
+- (kỹ thuật) ram (thép)
+*  nội động từ
+- dịu đi, yếu đi, nhụt đi, đỡ, bớt, ngớt
+=paint abates+ cơn đau dịu đi
+=storm abates+ cơn bão ngớt
+
+@abatement /ə'beitmənt/
+*  danh từ
+- sự dịu đi, sự yếu đi, sự nhụt đi, sự giảm bớt, sự đỡ, sự ngớt
+- sự hạ (giá), sự bớt (giá)
+- sự chấm dứt, sự thanh toán
+- (pháp lý) sự huỷ bỏ, sự thủ tiêu
+=abatement of a contract+ sự huỷ bỏ một hợp đồng
+
+@abatis /'æbətis/
+*  danh từ,  số nhiều abatis
+- (quân sự) đống cây chướng ngại, đống cây cản
+
+@abatised /'æbətist/
+*  tính từ
+- (quân sự) có đống cây chướng ngại, có đống cây cản
+
+@abattoir /'æbətwɑ:/
+*  danh từ
+- lò mổ, lò sát sinh
+
+@abb /æb/
+*  danh từ
+- (nghành dệt) sợi canh, sợi khổ (của tấm vải)
+
+@abbacy /'æbəsi/
+*  danh từ
+- chức vị trưởng tu viện; quyền hạn trưởng tu viện
+
+@boy
+
+@bye
+
+@cbbb
+
+@dhdjsh
+
+@word
