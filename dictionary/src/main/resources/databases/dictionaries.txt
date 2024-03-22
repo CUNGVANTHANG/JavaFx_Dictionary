@@ -1,0 +1,16 @@
+a | <h1>a</h1><h3><i>/ei, ə/</i></h3><h2>danh từ,  số nhiều as,  a's</h2><ul><li>(thông tục) loại a, hạng nhất, hạng tốt nhất hạng rất tốt<ul style="list-style-type:circle"><li>his health is a:<i> sức khoẻ anh ta vào loại a</i></li></ul></li><li>(âm nhạc) la<ul style="list-style-type:circle"><li>a sharp:<i> la thăng</i></li><li>a flat:<i> la giáng</i></li></ul></li><li>người giả định thứ nhất; trường hợp giả định thứ nhất<ul style="list-style-type:circle"><li>from a to z:<i> từ đầu đến đuôi, tường tận</i></li><li>not to know a from b:<i> không biết tí gì cả; một chữ bẻ đôi cũng không biết</i></li></ul></li></ul><h2>mạo từ</h2><ul><li>một; một (như kiểu); một (nào đó)<ul style="list-style-type:circle"><li>a very cold day:<i> một ngày rất lạnh</i></li><li>a dozen:<i> một tá</i></li><li>a few:<i> một ít</i></li><li>all of a size:<i> tất cả cùng một cỡ</i></li><li>a Shakespeare:<i> một (văn hào như kiểu) Sếch-xpia</i></li><li>a Mr Nam:<i> một ông Nam (nào đó)</i></li></ul></li><li>cái, con, chiếc, cuốn, người, đứa...;<ul style="list-style-type:circle"><li>a cup:<i> cái chén</i></li><li>a knife:<i> con dao</i></li><li>a son of the Party:<i> người con của Đảng</i></li><li>a Vietnamese grammar:<i> cuốn ngữ pháp Việt Nam</i></li></ul></li></ul><h2>giới từ</h2><ul><li>mỗi, mỗi một<ul style="list-style-type:circle"><li>twice a week:<i> mỗi tuần hai lần</i></li></ul></li></ul>
+a b c | <h1>a b c</h1><h3><i>/'eibi:'si:/</i></h3><h2>danh từ</h2><ul><li>bảng chữ cái</li><li>khái niệm cơ sở, cơ sở<ul style="list-style-type:circle"><li>a_b_c of chemistry:<i> khái niệm cơ sở về hoá học, cơ sở hoá học</i></li></ul></li><li>(ngành đường sắt) bảng chỉ đường theo abc</li></ul>
+a b c - book | <h1>a b c - book</h1><h3><i>/'eibi:'si:buk/</i></h3><h2>danh từ</h2><ul><li>sách vỡ lòng, sách học vần</li></ul>
+a font | <h1>a font</h1><h3><i>/ɑ:'fɜ:ɳ/</i></h3><h2>phó từ</h2><ul><li>thấu triệt, cặn kẽ, rõ ngọn nghành</li></ul>
+a fortiori | <h1>a fortiori</h1><h3><i>/'ei,fɔ:ti'ɔ:rai/</i></h3><h2>phó từ</h2><ul><li>huống hồ, huống là</li></ul>
+a la carte | <h1>a la carte</h1><h3><i>/'ɑ:lɑ:'kɑ:t/</i></h3><h2>phó từ</h2><ul><li>theo món, gọi theo món, đặt theo món<ul style="list-style-type:circle"><li>to dine a_la_carte:<i> ăn cơm gọi theo món</i></li></ul></li></ul>
+a la mode | <h1>a la mode</h1><h3><i>/,ɑ:lə'moud/</i></h3><h2>phó từ</h2><ul><li>hợp thời trang, đúng mốt</li></ul>
+a posteriori | <h1>a posteriori</h1><h3><i>/'eipɔs,teri'ɔ:rai/</i></h3><h2>phó từ & tính từ</h2><ul><li>theo phép quy nạp<ul style="list-style-type:circle"><li>method a_posteriori:<i> phương pháp quy nạp</i></li></ul></li><li>hậu nghiệm<ul style="list-style-type:circle"><li>probability a_posteriori:<i> (toán học) xác suất hậu nghiệm</i></li></ul></li></ul>
+a priori | <h1>a priori</h1><h3><i>/'eiprai'ɔ:rai/</i></h3><h2>danh từ & phó từ</h2><ul><li>theo cách suy diễn, theo cách diễn dịch</li><li>tiên nghiệm<ul style="list-style-type:circle"><li>probability a_priori:<i> (toán học) xác xuất tiên nghiệm</i></li></ul></li></ul>
+a-bomb | <h1>a-bomb</h1><h3><i>/'ei'bɔm/</i></h3><h2>danh từ</h2><ul><li>bom nguyên tử</li></ul>
+boy | con trai
+big | to lớn
+crows | con bò
+how | thế nào
+word | từ
+jkk

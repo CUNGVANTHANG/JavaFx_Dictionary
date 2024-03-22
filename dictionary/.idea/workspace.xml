@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2075fd60-9d4b-4efc-b22f-177a8d751490" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/base/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/base/DictionaryCommandLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/base/DictionaryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/databases/dictionaries.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/databases/dictionaries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/app/General.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/java/org/app/Databases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/java/org/app/Dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/java/org/base/Dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/java/org/base/DictionaryCommandLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/java/org/base/DictionaryManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/java/org/base/Word.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/java/org/command/Dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/java/org/command/DictionaryCommandLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/java/org/command/DictionaryManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/java/org/command/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/resources/databases/dictionaries.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/resources/databases/dictionaries_update.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/resources/databases/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../englishapp/src/main/resources/databases/test_update.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2dxiBgsy7rZbM7oeKLyoUEFFbWx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DictionaryCommandLine.executor": "Run",
+    "Application.Main.executor": "Run",
+    "JAR Application.sqlite-jdbc-3.45.2.0.jar.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "cungvanthang",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/src/main/resources/databases",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2765531",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\databases" />
+      <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\java\org\base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\org\app" />
+      <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\java\org\app" />
+      <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\fxml" />
+      <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DictionaryCommandLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.base.DictionaryCommandLine" />
+      <module name="dictionary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.app.Main" />
+      <module name="dictionary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sqlite-jdbc-3.45.2.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/sqlite-jdbc-3.45.2.0.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DictionaryCommandLine" />
+        <item itemvalue="JAR Application.sqlite-jdbc-3.45.2.0.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2075fd60-9d4b-4efc-b22f-177a8d751490" name="Changes" comment="" />
+      <created>1710955996444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710955996444</updated>
+      <workItem from="1710955997484" duration="24000" />
+      <workItem from="1710956032797" duration="1312000" />
+      <workItem from="1710957699673" duration="1099000" />
+      <workItem from="1710958822245" duration="3717000" />
+      <workItem from="1710996696826" duration="2164000" />
+      <workItem from="1711001418335" duration="4989000" />
+      <workItem from="1711083022017" duration="2424000" />
+      <workItem from="1711096962281" duration="2148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
