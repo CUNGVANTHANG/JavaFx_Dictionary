@@ -96,15 +96,11 @@ public class DictionaryManagement extends Dictionary {
             preparedStatement = connection.prepareStatement("SELECT * FROM av");
             ResultSet resultSet = preparedStatement.executeQuery();
 
-            int count = 0;
             while (resultSet.next() == true) {
-                if (count == 25) {
-                    break;
-                }
+
                 String word_target = resultSet.getString(2);
                 String word_explain = resultSet.getString(3);
                 dictionary.put(word_target, new Word(word_target, word_explain));
-                count++;
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -161,12 +157,21 @@ public class DictionaryManagement extends Dictionary {
         }
     }
 
-    public static void dictionaryLookup(String word_target) {
-        Word word = dictionary.get(word_target.toLowerCase());
+//    public static void dictionaryLookup(String word_target) {
+//        Word word = dictionary.get(word_target.toLowerCase());
+//        if (word != null) {
+//            System.out.println(word.getWord_explain());
+//        } else {
+//            System.out.println("Does not exist");
+//        }
+//    }
+
+    public static String dictionaryLookup(String word_target) {
+        Word word = dictionary.get(word_target.toLowerCase().trim());
         if (word != null) {
-            System.out.println(word.getWord_explain());
+            return word.getWord_explain();
         } else {
-            System.out.println("Does not exist");
+            return null;
         }
     }
 }
