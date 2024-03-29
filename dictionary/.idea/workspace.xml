@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2075fd60-9d4b-4efc-b22f-177a8d751490" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/GeneralController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/app/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/app/main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/app/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/app/search.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/HistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/base/Colors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/app/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/DictionaryCommandLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/DictionaryCommandLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/base/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/DictionaryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/app/General.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/app/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/app/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/app/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/app/search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/search.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
   &quot;keyToString&quot;: {
     &quot;Application.DictionaryCommandLine.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainController.executor&quot;: &quot;Run&quot;,
     &quot;JAR Application.sqlite-jdbc-3.45.2.0.jar.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -81,14 +83,14 @@
       <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\java\org\base" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\css" />
+      <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\fxml" />
       <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\svg" />
       <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\java\org\app" />
       <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\org\app" />
-      <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\fxml" />
-      <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainController">
     <configuration name="DictionaryCommandLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.base.DictionaryCommandLine" />
       <module name="dictionary" />
@@ -102,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.app.Main" />
+    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.app.MainController" />
       <module name="dictionary" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainController" />
         <item itemvalue="Application.DictionaryCommandLine" />
         <item itemvalue="JAR Application.sqlite-jdbc-3.45.2.0.jar" />
       </list>
@@ -154,6 +156,15 @@
       <workItem from="1711168902802" duration="1117000" />
       <workItem from="1711216069019" duration="4396000" />
       <workItem from="1711289588031" duration="14777000" />
+      <workItem from="1711340138486" duration="693000" />
+      <workItem from="1711353083648" duration="127000" />
+      <workItem from="1711433318706" duration="632000" />
+      <workItem from="1711700617787" duration="3627000" />
+      <workItem from="1711727651624" duration="3029000" />
+      <workItem from="1711734434703" duration="6000" />
+      <workItem from="1711734453548" duration="593000" />
+      <workItem from="1711735065054" duration="395000" />
+      <workItem from="1711735481194" duration="2473000" />
     </task>
     <servers />
   </component>

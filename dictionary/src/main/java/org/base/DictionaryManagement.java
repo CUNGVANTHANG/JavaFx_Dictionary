@@ -17,7 +17,7 @@ public class DictionaryManagement extends Dictionary {
     }
 
     public static void insertFromFile() {
-        System.out.println("Loading from File...");
+        System.out.println(Colors.WHITE + "Loading from File...");
         try {
             // File Reader
             FileReader fileReader = new FileReader(getAbsolutePath(FILE_PATH));
@@ -53,15 +53,15 @@ public class DictionaryManagement extends Dictionary {
         Scanner input = new Scanner(System.in);
 
         // Enter on the keyboard the number of words
-        System.out.print("Enter on the keyboard the number of words (Word): ");
+        System.out.print(Colors.RED + "Enter on the keyboard the number of words (Word): ");
         int number_word = input.nextInt();
         input.nextLine();
 
         for (int i = 0; i < number_word; i++) {
             // Enter English - Vietnamese dictionary data on the keyboard
-            System.out.print("Enter word target " + (i + 1) + ": ");
+            System.out.print(Colors.RED + "Enter word target " + (i + 1) + ": ");
             String word_target = input.nextLine();
-            System.out.print("Enter word explain " + (i + 1) + ": ");
+            System.out.print(Colors.RED + "Enter word explain " + (i + 1) + ": ");
             String word_explain = input.nextLine();
 
             // Add word to dictionary
@@ -84,7 +84,7 @@ public class DictionaryManagement extends Dictionary {
             connection = DriverManager.getConnection("jdbc:sqlite:" + getAbsolutePath(SQLITE_PATH));
 
             if (connection != null) {
-                System.out.println("Loading from SQLite...");
+                System.out.println(Colors.WHITE + "Loading from SQLite...");
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -108,7 +108,7 @@ public class DictionaryManagement extends Dictionary {
     }
 
     public static void dictionaryExportToFile() {
-        System.out.println("Export to File...");
+        System.out.println(Colors.WHITE + "Export to File...");
         try {
             FileWriter fileWriter = new FileWriter(getAbsolutePath(FILE_PATH));
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
@@ -130,18 +130,18 @@ public class DictionaryManagement extends Dictionary {
     public static void removeWord(String word_target) {
         if (dictionary.containsKey(word_target.toLowerCase())) {
             dictionary.remove(word_target.toLowerCase());
-            System.out.println("Deleted words...");
+            System.out.println(Colors.WHITE + "Deleted words...");
         } else {
-            System.out.println("Does not exist");
+            System.out.println(Colors.RED + "Does not exist");
         }
     }
 
     public static void addWord(String word_target, String word_explain) {
         if (dictionary.containsKey(word_target.toLowerCase())) {
-            System.out.println("Word exists");
+            System.out.println(Colors.RED + "Word exists");
         } else {
             dictionary.put(word_target.toLowerCase(), new Word(word_target, word_explain));
-            System.out.println("Added words...");
+            System.out.println(Colors.WHITE + "Added words...");
         }
     }
 
@@ -156,15 +156,6 @@ public class DictionaryManagement extends Dictionary {
             System.out.println("Does not exist");
         }
     }
-
-//    public static void dictionaryLookup(String word_target) {
-//        Word word = dictionary.get(word_target.toLowerCase());
-//        if (word != null) {
-//            System.out.println(word.getWord_explain());
-//        } else {
-//            System.out.println("Does not exist");
-//        }
-//    }
 
     public static String dictionaryLookup(String word_target) {
         Word word = dictionary.get(word_target.toLowerCase().trim());

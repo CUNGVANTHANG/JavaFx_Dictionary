@@ -6,12 +6,12 @@ import java.util.Scanner;
 
 public class DictionaryCommandLine extends Dictionary {
     public static void showAllWords() {
-        System.out.println("No   | English        | Vietnamese        ");
+        System.out.println(Colors.YELLOW + "No   | English        | Vietnamese        ");
         int count = 1;
 
         // Get word from dictionary
         for (Word word : dictionary.values()) {
-            System.out.printf("%-4d | %-14s | %s\n", count++,
+            System.out.printf(Colors.YELLOW + "%-4d | %-14s | %s\n", count++,
                     word.getWord_target(), word.getWord_explain());
         }
     }
@@ -22,31 +22,36 @@ public class DictionaryCommandLine extends Dictionary {
     }
 
     public static ArrayList<String> dictionarySearcher(String prefix) {
-        ArrayList<String> resultList = new ArrayList<>();
 
-        for (Map.Entry<String, Word> entry : dictionary.entrySet()) {
-            String word = entry.getKey();
-            if (word.startsWith(prefix)) {
-                resultList.add(word);
-            }
-        }
+//        for (Map.Entry<String, Word> entry : dictionary.entrySet()) {
+//            String word = entry.getKey();
+//            if (word.startsWith(prefix)) {
+//                resultList.add(word);
+//            }
+//        }
+
+        ArrayList<String> resultList = new ArrayList<>(dictionary
+                .subMap(prefix, prefix + Character.MAX_VALUE)
+                .keySet()
+                .stream()
+                .toList());
 
         return resultList;
     }
 
     public static void dictionaryAdvanced() {
-        System.out.println("Welcome to My Application!");
-        System.out.println("[0] Exit");
-        System.out.println("[1] Add");
-        System.out.println("[2] Remove");
-        System.out.println("[3] Update");
-        System.out.println("[4] Display");
-        System.out.println("[5] Lookup");
-        System.out.println("[6] Search");
-        System.out.println("[7] Game");
-        System.out.println("[8] Import from file");
-        System.out.println("[9] Export to file");
-        System.out.print("\nYour action: ");
+        System.out.println(Colors.BLUE + "Welcome to My Application!");
+        System.out.println(Colors.BLUE + "[0] Exit");
+        System.out.println(Colors.BLUE + "[1] Add");
+        System.out.println(Colors.BLUE + "[2] Remove");
+        System.out.println(Colors.BLUE + "[3] Update");
+        System.out.println(Colors.BLUE + "[4] Display");
+        System.out.println(Colors.BLUE + "[5] Lookup");
+        System.out.println(Colors.BLUE + "[6] Search");
+        System.out.println(Colors.BLUE + "[7] Game");
+        System.out.println(Colors.BLUE + "[8] Import from file");
+        System.out.println(Colors.BLUE + "[9] Export to file");
+        System.out.print(Colors.BLUE + "\nYour action: ");
         Scanner option = new Scanner(System.in);
         int options;
         do {
@@ -56,25 +61,25 @@ public class DictionaryCommandLine extends Dictionary {
             options = option.nextInt();
             switch (options) {
                 case 0:
-                    System.out.println("Exiting...");
+                    System.out.println(Colors.WHITE + "Exiting...");
                     options = -1;
                     break;
                 case 1:
-                    System.out.print("Enter word target: ");
+                    System.out.print(Colors.RED + "Enter word target: ");
                     word_target = input.nextLine();
-                    System.out.print("Enter word explain: ");
+                    System.out.print(Colors.RED + "Enter word explain: ");
                     word_explain = input.nextLine();
                     DictionaryManagement.addWord(word_target, word_explain);
                     break;
                 case 2:
-                    System.out.print("Enter word target: ");
+                    System.out.print(Colors.RED + "Enter word target: ");
                     word_target = input.nextLine();
                     DictionaryManagement.removeWord(word_target);
                     break;
                 case 3:
-                    System.out.print("Enter word target: ");
+                    System.out.print(Colors.RED + "Enter word target: ");
                     word_target = input.nextLine();
-                    System.out.print("Enter word explain: ");
+                    System.out.print(Colors.RED + "Enter word explain: ");
                     word_explain = input.nextLine();
                     DictionaryManagement.modifyWord(word_target, word_explain);
                     break;
@@ -82,15 +87,15 @@ public class DictionaryCommandLine extends Dictionary {
                     showAllWords();
                     break;
                 case 5:
-                    System.out.print("Enter the word you want to research: ");
+                    System.out.print(Colors.RED + "Enter the word you want to lookup: ");
                     word_target = input.nextLine();
-                    DictionaryManagement.dictionaryLookup(word_target);
+                    System.out.println(Colors.YELLOW + DictionaryManagement.dictionaryLookup(word_target));
                     break;
                 case 6:
-                    System.out.print("Enter the word you want to research: ");
+                    System.out.print(Colors.RED + "Enter the word you want to research: ");
                     word_target = input.nextLine();
                     for (String word : dictionarySearcher(word_target)) {
-                        System.out.println(word);
+                        System.out.println(Colors.YELLOW + word);
                     }
                     break;
                 case 7:
@@ -103,12 +108,15 @@ public class DictionaryCommandLine extends Dictionary {
                     DictionaryManagement.dictionaryExportToFile();
                     break;
                 default:
-                    System.out.println("Invalid option. Please choose again.");
+                    System.out.println(Colors.RED + "Invalid option. Please choose again.");
             }
-            System.out.println();
-            System.out.println("[0] Exit     [1] Add       [2] Remove    [3] Update               [4] Display");
-            System.out.println("[5] Lookup   [6] Search    [7] Game      [8] Import from file     [9] Export to file");
-            System.out.print("\nYour action: ");
+
+            if (options != -1) {
+                System.out.println();
+                System.out.println(Colors.BLUE + "[0] Exit     [1] Add       [2] Remove    [3] Update               [4] Display");
+                System.out.println(Colors.BLUE + "[5] Lookup   [6] Search    [7] Game      [8] Import from file     [9] Export to file");
+                System.out.print(Colors.BLUE + "\nYour action: ");
+            }
         } while (options != -1);
 
         option.close();
