@@ -5,16 +5,17 @@ import javafx.collections.ObservableList;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ListView;
 import javafx.scene.web.WebEngine;
-import org.base.DictionaryCommandLine;
-import org.base.DictionaryManagement;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class SearchController extends GeneralController implements Initializable {
+
+    HistoryController historyController = new HistoryController();
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        DictionaryManagement.insertFromSQLite();
+        dictionaryManagement.insertFromSQLite();
+        historyController.importSearchHistory();
         handleEvent();
     }
 
@@ -67,11 +68,12 @@ public class SearchController extends GeneralController implements Initializable
     }
 
     public void handleLookup() {
-        String result = DictionaryManagement.dictionaryLookup(searchBox.getText());
+        String result = dictionaryManagement.dictionaryLookup(searchBox.getText());
 
         WebEngine webEngine = searchResult.getEngine();
         if (result != null) {
             webEngine.loadContent(result);
+            searchHistory.add(searchBox.getText());
         } else {
             webEngine.loadContent("<html><body>Từ không được tìm thấy trong từ điển.</body></html>");
         }
@@ -82,11 +84,13 @@ public class SearchController extends GeneralController implements Initializable
     public void handleSearch() {
         String searchText = searchBox.getText();
         if (searchText != null && !searchText.isEmpty()) {
-            ObservableList<String> searchHistory = FXCollections.observableArrayList(DictionaryCommandLine.dictionarySearcher(searchText));
+            ObservableList<String> searchHistory = FXCollections.observableArrayList(dictionaryCommandLine.dictionarySearcher(searchText));
             searchList.getItems().clear();
             searchList.setItems(searchHistory);
         } else {
             searchList.getItems().clear();
+//            ObservableList<String> searchHistory = FXCollections.observableHashMap();
+//            searchList.setItems();
         }
     }
 }
