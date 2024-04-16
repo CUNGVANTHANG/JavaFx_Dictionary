@@ -11,28 +11,28 @@
          <children>
             <VBox prefHeight="560.0" prefWidth="60.0">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="search" text="Tra từ" />
-                  <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="translate" text="Dịch từ">
+                  <Button fx:id="searchController" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="search" text="Tra từ" />
+                  <Button fx:id="translateController" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="translate" text="Dịch từ">
                      <VBox.margin>
                         <Insets top="12.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="game" text="Game">
+                  <Button fx:id="gameController" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="game" text="Game">
                      <VBox.margin>
                         <Insets top="12.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="save" text="Đã lưu">
+                  <Button fx:id="storageController" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="save" text="Đã lưu">
                      <VBox.margin>
                         <Insets top="12.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="history" text="Lịch sử">
+                  <Button fx:id="historyController" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="history" text="Lịch sử">
                      <VBox.margin>
                         <Insets top="12.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="setting" text="Cài đặt">
+                  <Button fx:id="settingController" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="setting" text="Cài đặt">
                      <VBox.margin>
                         <Insets top="152.0" />
                      </VBox.margin>

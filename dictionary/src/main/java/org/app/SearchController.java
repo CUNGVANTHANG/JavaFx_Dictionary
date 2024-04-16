@@ -3,24 +3,21 @@ package org.app;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.Initializable;
-import javafx.scene.control.ListView;
 import javafx.scene.web.WebEngine;
+import org.base.DictionaryCommandLine;
+import org.base.DictionaryManagement;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class SearchController extends GeneralController implements Initializable {
-
-    HistoryController historyController = new HistoryController();
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        dictionaryManagement.insertFromSQLite();
-        historyController.importSearchHistory();
+        DictionaryManagement.insertFromSQLite();
         handleEvent();
     }
 
     public void handleEvent() {
-
         searchBox.textProperty().addListener(event -> {
             handleSearch();
         });
@@ -68,12 +65,11 @@ public class SearchController extends GeneralController implements Initializable
     }
 
     public void handleLookup() {
-        String result = dictionaryManagement.dictionaryLookup(searchBox.getText());
+        String result = DictionaryManagement.dictionaryLookup(searchBox.getText());
 
         WebEngine webEngine = searchResult.getEngine();
         if (result != null) {
             webEngine.loadContent(result);
-            searchHistory.add(searchBox.getText());
         } else {
             webEngine.loadContent("<html><body>Từ không được tìm thấy trong từ điển.</body></html>");
         }
@@ -84,7 +80,7 @@ public class SearchController extends GeneralController implements Initializable
     public void handleSearch() {
         String searchText = searchBox.getText();
         if (searchText != null && !searchText.isEmpty()) {
-            ObservableList<String> searchHistory = FXCollections.observableArrayList(dictionaryCommandLine.dictionarySearcher(searchText));
+            ObservableList<String> searchHistory = FXCollections.observableArrayList(DictionaryCommandLine.dictionarySearcher(searchText));
             searchList.getItems().clear();
             searchList.setItems(searchHistory);
         } else {
