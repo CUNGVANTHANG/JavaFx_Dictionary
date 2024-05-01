@@ -10,7 +10,7 @@ public class MainController extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/search.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("fxml/search.fxml"));
         primaryStage.setTitle("Dictionary UET");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
