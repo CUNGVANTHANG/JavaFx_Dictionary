@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="rootAnchorPane" fx:id="rootAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.retardict.WelcomeSceneController">
+    <children>
+        <TextField fx:id="searchBox" layoutX="300.0" layoutY="50.0" onKeyReleased="#searchWord" prefHeight="25.0" prefWidth="400.0" AnchorPane.topAnchor="50.0" />
+        <ListView fx:id="list" layoutX="300.0" layoutY="119.0" onMouseClicked="#displayWordInSearchList" prefHeight="300.0" prefWidth="400.0" AnchorPane.bottomAnchor="320.0" />
+      <AnchorPane id="wordVBoxBackground" prefHeight="620.0" prefWidth="400.0" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <VBox id="wordVBox" layoutX="-4.0" layoutY="38.0" prefHeight="620.0" prefWidth="389.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+               <children>
+                  <Label id="wordBentoBox" fx:id="wordLabel" prefHeight="0.0" prefWidth="300.0" text="Word" wrapText="true">
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </Label>
+                  <Label id="wordBentoBox" fx:id="pronunciation" layoutX="10.0" layoutY="10.0" prefHeight="0.0" prefWidth="300.0" text="Pronunciation" wrapText="true">
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </Label>
+                  <Label id="wordBentoBox" fx:id="description" alignment="TOP_LEFT" layoutX="10.0" layoutY="31.0" prefHeight="448.0" prefWidth="339.0" text="Description" wrapText="true">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <Button id="speakButton" fx:id="bookmarkButton" layoutX="351.0" layoutY="47.0" mnemonicParsing="false" onAction="#bookmark" prefHeight="45.0" prefWidth="45.0" text="🔖">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <tooltip>
+                  <Tooltip text="bookmark selected word" />
+               </tooltip>
+            </Button>
+            <Button id="speakButton" layoutX="351.0" layoutY="103.0" mnemonicParsing="false" onAction="#speak" prefHeight="45.0" prefWidth="45.0" text="🔊">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <tooltip>
+                  <Tooltip text="pronunce word" />
+               </tooltip>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="closeButton" layoutX="1233.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" prefHeight="30.0" prefWidth="47.0" text="X" />
+      <ListView fx:id="bookmarkList" layoutX="300.0" layoutY="370.0" onMouseClicked="#displayWordInBookmarkList" prefHeight="220.0" prefWidth="400.0" AnchorPane.bottomAnchor="50.0" />
+      <Label layoutX="300.0" layoutY="403.0" prefHeight="44.0" prefWidth="400.0" text="Bookmarked words:" />
+    </children>
+</AnchorPane>
