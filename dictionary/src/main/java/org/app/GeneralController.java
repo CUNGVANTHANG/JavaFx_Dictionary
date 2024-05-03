@@ -10,9 +10,7 @@ import javafx.scene.web.WebView;
 import java.util.HashSet;
 
 public class GeneralController extends MainController {
-
-
-    // Search
+    // search.fxml
     @FXML
     protected WebView searchResult;
     @FXML

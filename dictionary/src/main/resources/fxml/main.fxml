@@ -11,8 +11,8 @@
          <children>
             <VBox prefHeight="560.0" prefWidth="60.0">
                <children>
-                  <Button fx:id="searchController" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="search" text="Tra từ" />
-                  <Button fx:id="translateController" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="translate" text="Dịch từ">
+                  <Button fx:id="" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="search" text="Tra từ" />
+                  <Button fx:id="transsearchControllerlateController" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="translate" text="Dịch từ">
                      <VBox.margin>
                         <Insets top="12.0" />
                      </VBox.margin>
@@ -41,6 +41,6 @@
             </VBox>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="80.0" prefHeight="600.0" prefWidth="800.0" />
+      <AnchorPane fx:id="mainContent" layoutX="80.0" prefHeight="600.0" prefWidth="800.0" />
    </children>
 </AnchorPane>

@@ -2,37 +2,47 @@ package org.app;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
 import javafx.scene.web.WebEngine;
+import javafx.scene.web.WebView;
 import org.base.DictionaryCommandLine;
 import org.base.DictionaryManagement;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class SearchController extends GeneralController implements Initializable {
+public class SearchController extends GeneralController {
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         DictionaryManagement.insertFromSQLite();
         handleEvent();
     }
 
+    // handleEvent: search.fxml
     public void handleEvent() {
+        // Event:
         searchBox.textProperty().addListener(event -> {
             handleSearch();
         });
 
+        // Event: Mouse Click -> handleLookup()
         searchList.setOnMouseClicked(event -> {
             if (event.getClickCount() == 1) {
                 String selectedWord = (String) searchList.getSelectionModel().getSelectedItem();
                 if (selectedWord != null) {
                     searchBox.setText(selectedWord);
                     handleLookup();
-
                 }
             }
         });
 
+        // Event: Key UP, Key DOWN -> Get data
+        // Event: Key ENTER -> handleLookup()
         searchBox.setOnKeyPressed(event -> {
             int currentIndex = searchList.getSelectionModel().getSelectedIndex();
             String selectedWord = (String) searchList.getSelectionModel().getSelectedItem();
@@ -40,8 +50,6 @@ public class SearchController extends GeneralController implements Initializable
                 case UP:
                     if (currentIndex > 0) {
                         searchList.getSelectionModel().select(currentIndex - 1);
-//                        ListView listView = new ListView();
-//                        listView.scrollTo(currentIndex - 1);
                     }
                     break;
                 case DOWN:
@@ -59,8 +67,10 @@ public class SearchController extends GeneralController implements Initializable
             }
         });
 
+        // Event:
         searchBox.setOnAction(event -> handleLookup());
 
+        // Event: Click Search Button -> handleLookup()
         searchButton.setOnAction(event -> handleLookup());
     }
 
@@ -85,8 +95,6 @@ public class SearchController extends GeneralController implements Initializable
             searchList.setItems(searchHistory);
         } else {
             searchList.getItems().clear();
-//            ObservableList<String> searchHistory = FXCollections.observableHashMap();
-//            searchList.setItems();
         }
     }
 }

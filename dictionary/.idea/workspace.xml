@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2075fd60-9d4b-4efc-b22f-177a8d751490" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/SettingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/StorageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/app/TranslateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/translate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/translate.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/app/GeneralController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/GeneralController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/HistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/HistoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/app/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/app/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/dictionaryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/dictionaryApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/main.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/search.fxml" afterDir="false" />
     </list>
@@ -58,7 +50,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;tuanlinh&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cungvanthang&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/src/main/resources/databases&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
@@ -209,6 +201,12 @@
       <workItem from="1712818373362" duration="3708000" />
       <workItem from="1712850432246" duration="1483000" />
       <workItem from="1712993400573" duration="192000" />
+      <workItem from="1713756554683" duration="54000" />
+      <workItem from="1713756723701" duration="241000" />
+      <workItem from="1713962097820" duration="1910000" />
+      <workItem from="1714573788932" duration="846000" />
+      <workItem from="1714632491371" duration="3680000" />
+      <workItem from="1714719123006" duration="11000" />
     </task>
     <servers />
   </component>
