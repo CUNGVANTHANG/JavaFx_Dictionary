@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="rootAnchorPane" fx:id="rootAnchor" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.game.GameSceneController">
+    <Button id="gameButton" layoutX="710.0" layoutY="246.0" mnemonicParsing="false" onAction="#switchToMultipleChoiceScene" prefHeight="70.0" prefWidth="200.0" text="Multiple Choice">
+      <font>
+         <Font name="Comic Sans MS" size="23.0" />
+      </font></Button>
+   <Button id="gameButton" layoutX="711.0" layoutY="341.0" mnemonicParsing="false" onAction="#switchToChooseItemGameScene" prefHeight="70.0" prefWidth="200.0" text="Choose Item">
+      <font>
+         <Font name="Comic Sans MS" size="23.0" />
+      </font></Button>
+   <Label id="mcQuestion" layoutX="654.0" layoutY="106.0" text="Choose game:" />
+   <Button fx:id="closeButton" layoutX="1233.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" prefHeight="30.0" prefWidth="47.0" text="X" />
+</AnchorPane>

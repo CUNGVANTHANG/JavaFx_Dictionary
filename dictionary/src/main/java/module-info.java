@@ -6,4 +6,5 @@ module dictionary {
 
     opens org.app to javafx.fxml, javafx.controls, javafx.web;
     exports org.app;
+
 }
