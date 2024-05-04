@@ -1,14 +1,11 @@
-package org.app;
+package org.controller;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonBar;
+import javafx.scene.control.ButtonType;
 import javafx.scene.web.WebEngine;
-import javafx.scene.web.WebView;
 import org.base.DictionaryCommandLine;
 import org.base.DictionaryManagement;
 
@@ -19,14 +16,15 @@ public class SearchController extends GeneralController {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        DictionaryManagement.insertFromSQLite();
+        DictionaryManagement.insertFromFile();
         handleEvent();
     }
 
     // handleEvent: search.fxml
+    @Override
     public void handleEvent() {
         // Event:
-        searchBox.textProperty().addListener(event -> {
+        searchField.textProperty().addListener(event -> {
             handleSearch();
         });
 
@@ -35,7 +33,7 @@ public class SearchController extends GeneralController {
             if (event.getClickCount() == 1) {
                 String selectedWord = (String) searchList.getSelectionModel().getSelectedItem();
                 if (selectedWord != null) {
-                    searchBox.setText(selectedWord);
+                    searchField.setText(selectedWord);
                     handleLookup();
                 }
             }
@@ -43,7 +41,7 @@ public class SearchController extends GeneralController {
 
         // Event: Key UP, Key DOWN -> Get data
         // Event: Key ENTER -> handleLookup()
-        searchBox.setOnKeyPressed(event -> {
+        searchField.setOnKeyPressed(event -> {
             int currentIndex = searchList.getSelectionModel().getSelectedIndex();
             String selectedWord = (String) searchList.getSelectionModel().getSelectedItem();
             switch (event.getCode()) {
@@ -59,8 +57,8 @@ public class SearchController extends GeneralController {
                     break;
                 case ENTER:
                     if (currentIndex >= 0 && currentIndex <= searchList.getItems().size() - 1) {
-                        searchBox.setText(selectedWord);
-                        handleLookup();
+                        searchField.setText(selectedWord);
+                            handleLookup();
                     }
                 default:
                     break;
@@ -68,32 +66,72 @@ public class SearchController extends GeneralController {
         });
 
         // Event:
-        searchBox.setOnAction(event -> handleLookup());
+        searchField.setOnAction(event -> handleLookup());
+
+        // Event: Click Clear Button -> Clear
+        clearBtn.setOnAction(event -> {
+            searchField.setText("");
+        });
 
         // Event: Click Search Button -> handleLookup()
-        searchButton.setOnAction(event -> handleLookup());
+        searchBtn.setOnAction(event -> handleLookup());
+
+        addBtn.setOnAction(event -> handleAddWord());
+
+        modifyBtn.setOnAction(event -> handleModifyWord());
+
+        removeBtn.setOnAction(event -> handleRemoveWord());
+
+        pronunciationBtn.setOnAction(event -> handlePronunciation());
+
     }
 
     public void handleLookup() {
-        String result = DictionaryManagement.dictionaryLookup(searchBox.getText());
+        String result = DictionaryManagement.dictionaryLookup(searchField.getText());
 
-        WebEngine webEngine = searchResult.getEngine();
+        WebEngine webEngine = searchView.getEngine();
         if (result != null) {
             webEngine.loadContent(result);
         } else {
             webEngine.loadContent("<html><body>Từ không được tìm thấy trong từ điển.</body></html>");
         }
 
-        searchBox.positionCaret(searchBox.getText().length());
+        searchField.positionCaret(searchField.getText().length());
     }
 
     public void handleSearch() {
-        String searchText = searchBox.getText();
+        String searchText = searchField.getText();
         if (searchText != null && !searchText.isEmpty()) {
             ObservableList<String> searchHistory = FXCollections.observableArrayList(DictionaryCommandLine.dictionarySearcher(searchText));
             searchList.getItems().clear();
             searchList.setItems(searchHistory);
         } else {
+            searchList.getItems().clear();
+        }
+    }
+
+    public void handleAddWord() {
+
+    }
+
+    public void handleModifyWord() {
+        String searchText = searchField.getText();
+    }
+
+    public void handleRemoveWord() {
+        ButtonType yes = new ButtonType("Có", ButtonBar.ButtonData.OK_DONE);
+        ButtonType no = new ButtonType("Không", ButtonBar.ButtonData.CANCEL_CLOSE);
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "Bạn có chắc chắn muốn xoá từ này không?", yes, no);
+        alert.setTitle("Thông báo");
+        alert.setHeaderText(null);
+        alert.showAndWait();
+
+        if (alert.getResult() == yes) {
+            String searchText = searchField.getText();
+            WebEngine webEngine = searchView.getEngine();
+            webEngine.loadContent("");
+            DictionaryManagement.removeWord(searchText);
+            searchField.setText("");
             searchList.getItems().clear();
         }
     }

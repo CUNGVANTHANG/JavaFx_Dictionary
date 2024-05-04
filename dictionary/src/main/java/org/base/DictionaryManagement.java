@@ -8,6 +8,7 @@ public class DictionaryManagement extends Dictionary {
     private static final String FILE_PATH = "/src/main/resources/databases/dictionaries.txt";
     private static final String SQLITE_PATH = "/src/main/resources/databases/dictionaries.db";
 
+    // Lấy đường dẫn tuyệt đối
     public static String getAbsolutePath(String filePath) {
         // Get absolute path
         String currentDirectory = System.getProperty("user.dir");
@@ -134,6 +135,8 @@ public class DictionaryManagement extends Dictionary {
         } else {
             System.out.println(Colors.RED + "Does not exist");
         }
+
+        dictionaryExportToFile();
     }
 
     public static void addWord(String word_target, String word_explain) {

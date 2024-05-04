@@ -8,16 +8,17 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.web.WebView?>
 
-<AnchorPane fx:id="searchPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.app.SearchController">
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.controller.SearchController">
    <children>
       <AnchorPane prefHeight="600.0" prefWidth="260.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
          <children>
             <HBox prefHeight="36.0" prefWidth="248.0">
                <children>
-                  <TextField fx:id="searchBox" prefHeight="36.0" prefWidth="248.0" />
+                  <TextField fx:id="searchField" prefHeight="36.0" prefWidth="248.0" />
+                  <Button fx:id="clearBtn" mnemonicParsing="false" prefHeight="39.0" prefWidth="24.0" text="x" />
                   <AnchorPane prefHeight="36.0" prefWidth="63.0">
                      <children>
-                        <Button fx:id="searchButton" mnemonicParsing="false" prefHeight="36.0" prefWidth="52.0" text="Search" />
+                        <Button fx:id="searchBtn" mnemonicParsing="false" prefHeight="36.0" prefWidth="52.0" text="Search" />
                      </children>
                   </AnchorPane>
                </children>
@@ -32,7 +33,15 @@
          <children>
             <AnchorPane prefHeight="560.0" prefWidth="500.0">
                <children>
-                  <WebView fx:id="searchResult" prefHeight="560.0" prefWidth="500.0" />
+                  <WebView fx:id="searchView" prefHeight="560.0" prefWidth="500.0" />
+                  <Button fx:id="pronunciationBtn" layoutX="258.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="86.0" text="Phát âm" />
+                  <HBox layoutX="344.0" prefHeight="36.0" prefWidth="156.0">
+                     <children>
+                        <Button fx:id="addBtn" mnemonicParsing="false" prefHeight="38.0" prefWidth="52.0" text="Thêm" />
+                        <Button fx:id="modifyBtn" mnemonicParsing="false" prefHeight="37.0" prefWidth="52.0" text="Sửa" />
+                        <Button fx:id="removeBtn" mnemonicParsing="false" prefHeight="37.0" prefWidth="52.0" text="Xóa" />
+                     </children>
+                  </HBox>
                </children>
             </AnchorPane>
          </children></AnchorPane>

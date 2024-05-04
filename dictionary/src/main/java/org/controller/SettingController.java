@@ -1,4 +1,4 @@
-package org.app;
+package org.controller;
 
 public class SettingController {
 }

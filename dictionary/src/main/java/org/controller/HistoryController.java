@@ -1,16 +1,4 @@
-package org.app;
-
-import javafx.fxml.Initializable;
-import org.base.Colors;
-import org.base.DictionaryManagement;
-import org.base.Word;
-
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.net.URL;
-import java.util.ResourceBundle;
+package org.controller;
 
 public class HistoryController extends GeneralController  {
 
