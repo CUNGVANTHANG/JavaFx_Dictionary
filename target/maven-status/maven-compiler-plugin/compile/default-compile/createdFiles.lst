@@ -1,0 +1,11 @@
+org\base\DictionaryManagement.class
+org\app\SearchController$1.class
+org\base\Word.class
+org\app\MainController.class
+org\app\GeneralController.class
+org\app\HistoryController.class
+module-info.class
+org\base\Colors.class
+org\app\SearchController.class
+org\base\Dictionary.class
+org\base\DictionaryCommandLine.class

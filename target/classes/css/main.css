@@ -1,0 +1,12 @@
+Button {
+    -fx-background-color: none;
+    -fx-font-size: 14px;
+}
+
+Button:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+.search {
+    -fx-font-size: 18px;
+}
