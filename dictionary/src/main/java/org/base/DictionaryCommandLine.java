@@ -22,14 +22,6 @@ public class DictionaryCommandLine extends Dictionary {
     }
 
     public static ArrayList<String> dictionarySearcher(String prefix) {
-
-//        for (Map.Entry<String, Word> entry : dictionary.entrySet()) {
-//            String word = entry.getKey();
-//            if (word.startsWith(prefix)) {
-//                resultList.add(word);
-//            }
-//        }
-
         ArrayList<String> resultList = new ArrayList<>(dictionary
                 .subMap(prefix, prefix + Character.MAX_VALUE)
                 .keySet()
@@ -56,6 +48,7 @@ public class DictionaryCommandLine extends Dictionary {
         int options;
         do {
             String word_target;
+            String word_target_modify;
             String word_explain;
             Scanner input = new Scanner(System.in);
             options = option.nextInt();
@@ -79,9 +72,11 @@ public class DictionaryCommandLine extends Dictionary {
                 case 3:
                     System.out.print(Colors.RED + "Enter word target: ");
                     word_target = input.nextLine();
+                    System.out.print(Colors.RED + "Enter word target: ");
+                    word_target_modify = input.nextLine();
                     System.out.print(Colors.RED + "Enter word explain: ");
                     word_explain = input.nextLine();
-                    DictionaryManagement.modifyWord(word_target, word_explain);
+                    DictionaryManagement.modifyWord(word_target, word_target_modify, word_explain);
                     break;
                 case 4:
                     showAllWords();

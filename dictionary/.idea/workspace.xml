@@ -5,40 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2075fd60-9d4b-4efc-b22f-177a8d751490" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/base/TranslateAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/controller/App_game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/controller/BookmarkController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/controller/GameSceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/controller/MultipleChoiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/controller/MultipleChoiceEndController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/ChooseItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/FIrstPersonShooterGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/MultipleChoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/MultipleChoiceQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/MultipleChoiceEnd.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/bookmark.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/game.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/gameScene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/history.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/multipleChoiceScene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/setting.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/voicerss_tts.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/base/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/base/Voice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/controller/QuizController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/GeneralController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/GeneralController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/HistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/HistoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/SettingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/StorageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/TranslateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/TranslateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/DictionaryCommandLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/DictionaryCommandLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/base/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/DictionaryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/TranslateAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/Translate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/App_game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/BookmarkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/BookmarkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/GameSceneController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/GeneralController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/GeneralController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/MultipleChoiceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/MultipleChoiceEndController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/SettingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/TranslateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/TranslateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/game/ChooseItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/game/FIrstPersonShooterGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/game/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/game/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/game/MultipleChoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/game/MultipleChoiceQuestion.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/databases/dictionaries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/databases/dictionaries.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/MultipleChoiceEnd.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/game.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/gameScene.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/multipleChoiceScene.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/search.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/translate.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/translate.fxml" afterDir="false" />
     </list>
@@ -75,7 +72,10 @@
     "Application.HistoryController.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainController.executor": "Run",
+    "Application.TextToSpeech.executor": "Run",
     "Application.TranslateAPI.executor": "Run",
+    "Application.Voice.executor": "Run",
+    "Application.VoiceRSS.executor": "Run",
     "Application.dictionaryApplication.executor": "Run",
     "JAR Application.sqlite-jdbc-3.45.2.0.jar.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -83,7 +83,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "cungvanthang",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/src/main/resources/fxml",
+    "last_opened_file_path": "C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/lib/voicerss_tts.jar",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -118,7 +118,7 @@
       <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\org\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App_game">
+  <component name="RunManager" selected="Application.dictionaryApplication">
     <configuration name="App_game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.controller.App_game" />
       <module name="dictionary" />
@@ -132,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DictionaryCommandLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.base.DictionaryCommandLine" />
+    <configuration name="TextToSpeech" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.base.TextToSpeech" />
       <module name="dictionary" />
       <extension name="coverage">
         <pattern>
@@ -145,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.controller.MainController" />
+    <configuration name="Voice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.base.Voice" />
       <module name="dictionary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.app.*" />
+          <option name="PATTERN" value="org.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,8 +158,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TranslateAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.base.TranslateAPI" />
+    <configuration name="VoiceRSS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.base.VoiceRSS" />
       <module name="dictionary" />
       <extension name="coverage">
         <pattern>
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App_game" />
         <item itemvalue="Application.dictionaryApplication" />
-        <item itemvalue="Application.TranslateAPI" />
-        <item itemvalue="Application.MainController" />
-        <item itemvalue="Application.DictionaryCommandLine" />
+        <item itemvalue="Application.Voice" />
+        <item itemvalue="Application.TextToSpeech" />
+        <item itemvalue="Application.VoiceRSS" />
+        <item itemvalue="Application.App_game" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +252,8 @@
       <workItem from="1714719123006" duration="11000" />
       <workItem from="1714752898330" duration="7612000" />
       <workItem from="1714793441740" duration="2142000" />
-      <workItem from="1714834847291" duration="8895000" />
+      <workItem from="1714834847291" duration="14389000" />
+      <workItem from="1714912182346" duration="25960000" />
     </task>
     <servers />
   </component>

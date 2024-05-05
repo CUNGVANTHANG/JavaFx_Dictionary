@@ -7,7 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 
-public class TranslateAPI {
+public class Translate {
     public static String googleTranslate(String langFrom, String langTo, String text) throws IOException {
         String apiKey = "AKfycbzxtNpZD2Ogs4oeUnj8nTaCmPlKwgwsLWPasyIsLQPB_WXvKdKU";
         String urlScript = "https://script.google.com/macros/s/" + apiKey + "/exec?q=" + URLEncoder.encode(text, "UTF-8") +

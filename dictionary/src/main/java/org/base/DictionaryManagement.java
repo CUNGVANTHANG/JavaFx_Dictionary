@@ -146,18 +146,22 @@ public class DictionaryManagement extends Dictionary {
             dictionary.put(word_target.toLowerCase(), new Word(word_target, word_explain));
             System.out.println(Colors.WHITE + "Added words...");
         }
+
+        dictionaryExportToFile();
     }
 
-    public static void modifyWord(String word_target, String word_explain) {
+    public static void modifyWord(String word_target, String word_target_modify, String word_explain) {
         if (dictionary.containsKey(word_target.toLowerCase())) {
             Word word = dictionary.get(word_target.toLowerCase());
-            word.setWord_target(word_target);
+            word.setWord_target(word_target_modify);
             word.setWord_explain(word_explain);
             dictionary.put(word_target, word);
             System.out.println("Corrected words...");
         } else {
             System.out.println("Does not exist");
         }
+
+        dictionaryExportToFile();
     }
 
     public static String dictionaryLookup(String word_target) {
@@ -167,5 +171,10 @@ public class DictionaryManagement extends Dictionary {
         } else {
             return null;
         }
+    }
+
+    public static void dictionaryUpdate() {
+        dictionary.clear();
+        insertFromFile();
     }
 }

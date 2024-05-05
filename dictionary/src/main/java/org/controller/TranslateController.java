@@ -1,10 +1,6 @@
 package org.controller;
 
-import javafx.beans.Observable;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
-import javafx.concurrent.Task;
-import org.base.TranslateAPI;
+import org.base.Translate;
 
 import java.io.IOException;
 import java.net.URL;
@@ -15,13 +11,15 @@ public class TranslateController extends GeneralController {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         handleEvent();
-
-
     }
 
     @Override
     public void handleEvent() {
-        pronunciationBtn.setOnAction(event -> handlePronunciation());
+        pronunciationBtn.setOnAction(event -> {
+            if (targetArea.getText() != "") {
+                handlePronunciation(targetArea.getText());
+            }
+        });
 
         translateBtn.setOnAction(event -> handleTranslate());
     }
@@ -30,13 +28,10 @@ public class TranslateController extends GeneralController {
         String target = targetArea.getText();
 
         try {
-            String explain = TranslateAPI.googleTranslate("", "vi", target);
+            String explain = Translate.googleTranslate("", "vi", target);
             explainArea.setText(explain);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
-
-
 }

@@ -1,4 +1,51 @@
-a | <h1>a</h1><h3><i>/ei, ə/</i></h3><h2>danh từ,  số nhiều as,  a's</h2><ul><li>(thông tục) loại a, hạng nhất, hạng tốt nhất hạng rất tốt<ul style="list-style-type:circle"><li>his health is a:<i> sức khoẻ anh ta vào loại a</i></li></ul></li><li>(âm nhạc) la<ul style="list-style-type:circle"><li>a sharp:<i> la thăng</i></li><li>a flat:<i> la giáng</i></li></ul></li><li>người giả định thứ nhất; trường hợp giả định thứ nhất<ul style="list-style-type:circle"><li>from a to z:<i> từ đầu đến đuôi, tường tận</i></li><li>not to know a from b:<i> không biết tí gì cả; một chữ bẻ đôi cũng không biết</i></li></ul></li></ul><h2>mạo từ</h2><ul><li>một; một (như kiểu); một (nào đó)<ul style="list-style-type:circle"><li>a very cold day:<i> một ngày rất lạnh</i></li><li>a dozen:<i> một tá</i></li><li>a few:<i> một ít</i></li><li>all of a size:<i> tất cả cùng một cỡ</i></li><li>a Shakespeare:<i> một (văn hào như kiểu) Sếch-xpia</i></li><li>a Mr Nam:<i> một ông Nam (nào đó)</i></li></ul></li><li>cái, con, chiếc, cuốn, người, đứa...;<ul style="list-style-type:circle"><li>a cup:<i> cái chén</i></li><li>a knife:<i> con dao</i></li><li>a son of the Party:<i> người con của Đảng</i></li><li>a Vietnamese grammar:<i> cuốn ngữ pháp Việt Nam</i></li></ul></li></ul><h2>giới từ</h2><ul><li>mỗi, mỗi một<ul style="list-style-type:circle"><li>twice a week:<i> mỗi tuần hai lần</i></li></ul></li></ul>
-a la carte | <h1>a la carte</h1><h3><i>/'ɑ:lɑ:'kɑ:t/</i></h3><h2>phó từ</h2><ul><li>theo món, gọi theo món, đặt theo món<ul style="list-style-type:circle"><li>to dine a_la_carte:<i> ăn cơm gọi theo món</i></li></ul></li></ul>
-a posteriori | <h1>a posteriori</h1><h3><i>/'eipɔs,teri'ɔ:rai/</i></h3><h2>phó từ & tính từ</h2><ul><li>theo phép quy nạp<ul style="list-style-type:circle"><li>method a_posteriori:<i> phương pháp quy nạp</i></li></ul></li><li>hậu nghiệm<ul style="list-style-type:circle"><li>probability a_posteriori:<i> (toán học) xác suất hậu nghiệm</i></li></ul></li></ul>
-a-bomb | <h1>a-bomb</h1><h3><i>/'ei'bɔm/</i></h3><h2>danh từ</h2><ul><li>bom nguyên tử</li></ul>
+ | <html dir="ltr"><head></head><body contenteditable="true"><h1>book</h1><p><span style="font-weight: bold; font-family: &quot;&quot;;">hello&nbsp;</span></p></body></html>
+&nbsp;day | <html dir="ltr"><head></head><body contenteditable="true"><h1>a priori<span style="font-size: xx-large;">&nbsp;day</span></h1><h3><i>//</i></h3><ul><li>tiên nghiệm</li><li>minh bi</li></ul></body></html>
+&nbsp;y | <html dir="ltr"><head></head><body contenteditable="true"><h1>a fortiori<span style="font-size: xx-large;">&nbsp;y</span></h1><h3><i>//</i></h3><ul><li>lại càng hay</li></ul></body></html>
+<h1><span style="font-family: &quot;&quot;;">book</span> | <html dir="ltr"><head></head><body contenteditable="true"><h1><span style="font-family: &quot;&quot;;">book</span></h1></body></html>
+<h1><span style="font-family: &quot;&quot;;">book</span></h1> | <html dir="ltr"><head></head><body contenteditable="true"><h1><span style="font-family: &quot;&quot;;">book</span></h1></body></html>
+<h1><span style="font-family: &quot;&quot;;">tieng</span></h1> | <html dir="ltr"><head></head><body contenteditable="true"><h1><span style="font-family: &quot;&quot;;">tieng</span></h1></body></html>
+<h1>Từ</h1> | <html dir="ltr"><head></head><body contenteditable="true"><h1>Từ</h1></body></html>
+a b c &nbsp;d | <html dir="ltr"><head></head><body contenteditable="true"><h1><span style="font-family: &quot;&quot;;">a b c &nbsp;d</span></h1><h3><i>/'eibi:'si:/</i></h3><h2>danh từ</h2><ul><li>bảng chữ cái</li><li>khái niệm cơ sở, cơ sở<ul style="list-style-type:circle"><li>a_b_c of chemistry:<i> khái niệm cơ sở về hoá học, cơ sở hoá học</i></li></ul></li><li>(ngành đường sắt)</li></ul></body></html>
+A except B gate | <html dir="ltr"><head></head><body contenteditable="true"><h1>A except B gate</h1><h3><i>//</i></h3><ul><li>(Tech) cổng A loại trừ B</li></ul></body></html>
+A ignore B gate | <h1>A ignore B gate</h1><h3><i>//</i></h3><ul><li>(Tech) cổng A không biết B</li></ul>
+A implies B | <html dir="ltr"><head></head><body contenteditable="true"><h1>A implies B</h1><h3><i>//</i></h3><ul><li>thang</li></ul></body></html>
+a la mode&nbsp; | <html dir="ltr"><head></head><body contenteditable="true"><h1>a la mode&nbsp;</h1><h1><i>/,ɑ:lə'moud/</i></h1><h2>phó từ</h2><ul><li>hợp thời trang, đúng mốt</li></ul></body></html>
+a posteriori  dd | <html dir="ltr"><head></head><body contenteditable="true"><h1>a posteriori &nbsp; dd</h1><h3><i>//</i></h3><ul><li>hậu nghi</li></ul></body></html>
+a priori | <html dir="ltr"><head></head><body contenteditable="true"><h1><span style="font-family: &quot;&quot;;">a priori</span></h1><h3><i>//</i></h3><ul><li>tiên</li><li>minh</li><li>tien</li></ul></body></html>
+A shares | <h1>A shares</h1><h3><i>//</i></h3><ul><li>(Econ) Cổ phiếu A.(Cổ phiếu hưởng lãi sau).+ Xem FINANCIAL CAPITAL.<br/></li></ul>
+A-D = E a | <html dir="ltr"><head></head><body contenteditable="true"><h1>A-D = E &nbsp;a</h1><h3><i>/D = a-d (analog-to-digital)/</i></h3><ul><li>(Tech) đổi  dạng sóng (dạng tương tự) sang dạng số</li></ul></body></html>
+A-D conversion | <h1>A-D conversion</h1><h3><i>//</i></h3><ul><li>(Tech) đổi sóng (tương tự) - số</li></ul>
+A-D converter circuit | <h1>A-D converter circuit</h1><h3><i>//</i></h3><ul><li>(Tech) mạch đổi sóng-số</li></ul>
+a-going | <h1>a-going</h1><h3><i>/ə'gouiɳ/</i></h3><h2>tính từ & phó từ</h2><ul><li>đang chạy, đang chuyển động; đang hoạt động, đang tiến hành<ul style="list-style-type:circle"><li>to set a-going:<i> cho chuyển động, cho chạy (máy...)</i></li></ul></li></ul>
+a-okok | <html dir="ltr"><head></head><body contenteditable="true"><h1>a-okok</h1><h3><i>//</i></h3>* tính từ<br><ul><li><mỹ,khng> giống như OK nhấn mạnh</mỹ,khng></li></ul></body></html>
+a-pac-thai | <h1>a-pac-thai</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>apartheid</li></ul>
+a-plenty | <h1>a-plenty</h1><h3><i>/ə'plenti/</i></h3><h2>phó từ</h2><ul><li>(từ Mỹ,nghĩa Mỹ) nhiều, dồi dào, phong phú</li></ul>
+a-point | <h1>a-point</h1><h3><i>//</i></h3><ul><li>(giải tích) a- điểm</li></ul>
+a-power | <h1>a-power</h1><h3><i>/'ei'pauə/</i></h3><h2>danh từ</h2><ul><li>năng lượng nguyên tử</li><li>cường quốc nguyên tử</li></ul>
+a-road | <h1>a-road</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>đường lớn, không quan trọng bằng xa lộ, nhưng rộng và thẳng hơn đường loại B</li></ul>
+a-side | <h1>a-side</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>mặt chính của dĩa hát</li></ul>
+a.d. | <h1>a.d.</h1><h3><i>/'ei'di:/</i></h3><h2>(viết tắt) của Ano Domin</h2><ul><li>sau công nguyên<ul style="list-style-type:circle"><li>1540 a.d.:<i> năm 1540 sau công nguyên</i></li></ul></li></ul>
+a.d.c | <h1>a.d.c</h1><h3><i>//</i></h3><ul><li>(vt của aide-de-camp) sự quan phụ tá</li></ul>
+a.m | <h1>a.m</h1><h3><i>//</i></h3><ul><li>(vt)(radio)viết tắt của amplitude modulation) biến điệu biên độ</li><li><Mỹ> (vt của Master of Arts) cao học văn chương</li><li>(vt của tiếng Latinh Antemeridian) sáng, trước ngọ</li></ul>
+a.m. | <h1>a.m.</h1><h3><i>/'ei'em/</i></h3><h2>phó từ</h2><ul><li>(xem) ante_meridiem</li></ul>
+A4-size | <h1>A4-size</h1><h3><i>//</i></h3><ul><li>(Tech) khổ giấy A4 (21 cm x 29.7 cm)</li></ul>
+aa | <h1>aa</h1><h3><i>//</i></h3><ul><li>(Alcoholics Anonymous) Hội cai rượu</li><li>(Automobile Association) Hội ô tô</li></ul>
+aaa | <h1>aaa</h1><h3><i>//</i></h3><ul><li>(Amateur Athletic Association) Hội thể thao không chuyên</li><li>(American Automobile Association) Hiệp hội xe hơi Mỹ</li></ul>
+aard-wolf | <h1>aard-wolf</h1><h3><i>/'ɑ:d,wulf/</i></h3><h2>danh từ</h2><ul><li>(động vật học) chó sói đất (Nam Phi)</li></ul>
+aardvark | <h1>aardvark</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>(động vật) lợn đất</li></ul>
+aardwolf | <h1>aardwolf</h1><h3><i>//</i></h3>* danh từ<br/><ul><li><động> chó sói đất (Nam Phi)</li></ul>
+aasvogel | <h1>aasvogel</h1><h3><i>/'ɑ:sfougəl/</i></h3><h2>danh từ</h2><ul><li>(động vật học) con kên kên (Nam Phi)</li></ul>
+ab | <h1>ab</h1><h3><i>//</i></h3><ul><li>(vt của able-bodied seaman) thủy thủ hạng nhất</li><li>(vt của Bachelor of Arts) Cử nhân văn chương</li></ul>
+aba | <h1>aba</h1><h3><i>/'ɑ:bə/</i></h3><h2>danh từ</h2><ul><li>áo aba (áo ngoài giống hình cái túi người A-Rập)</li></ul>
+abac, abacus | <h1>abac, abacus</h1><h3><i>//</i></h3><ul><li>bàn tính, toán đồ, bản đồ tính</li></ul>
+abaca | <h1>abaca</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>vải dệt bằng tơ chuối abaca ở philipin</li><li>cây chuối abaca</li></ul>
+abaci | <h1>abaci</h1><h3><i>/'æbəkəs/</i></h3><h2>danh từ,  số nhiều abaci,  abacuses</h2><ul><li>bàn tính<ul style="list-style-type:circle"><li>to move counters of an abacus; to work an abacus:<i> tính bằng bàn tính, gảy bàn tính</i></li></ul></li><li>(kiến trúc)</li><li>đầu cột, đỉnh cột</li></ul>
+abacist | <h1>abacist</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>người gãy bàn phím</li><li>người kế toán</li></ul>
+aback | <h1>aback</h1><h3><i>/ə'bæk/</i></h3><h2>phó từ</h2><ul><li>lùi lại, trở lại phía sau<ul style="list-style-type:circle"><li>to stand aback from:<i> đứng lùi lại để tránh</i></li></ul></li><li>(hàng hải) bị thổi ép vào cột buồm (buồm)<ul style="list-style-type:circle"><li>to be taken aback:<i> (hàng hải) bị gió thổi ép vào cột buồm</i></li></ul></li><li>(nghĩa bóng) sửng sốt, ngạc nhiên<ul style="list-style-type:circle"><li>to be taken aback by the news:<i> sửng sốt vì cái tin đó</i></li></ul></li></ul>
+abacterial | <h1>abacterial</h1><h3><i>//</i></h3>* tính từ<br/><ul><li>không do vi khuẩn gây ra</li></ul>
+abaction | <h1>abaction</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>(từ pháp) việc gia súc bị bắt trộm</li></ul>
+abactus | <h1>abactus</h1><h3><i>//</i></h3>* tính từ<br/><ul><li>bị trụy thai</li></ul>
+book | <h1>book</h1>
+bsđ | <html dir="ltr"><head></head><body contenteditable="true"><h1>a la ca<span style="font-size: xx-large;">bsđ</span></h1><h3><i>/'ɑ:lɑ:'kɑ:t/</i></h3><h2>phó từ</h2><ul><li>theo món, gọi theo món, đặt theo món<ul style="list-style-type:circle"><li>to dine a_la_carte:<i>&nbsp;</i></li><li><i>today</i></li></ul></li></ul></body></html>
+go | <html dir="ltr"><head></head><body contenteditable="true"><h1>go</h1><p><span style="font-weight: 700; font-family: &quot;&quot;;">đi</span></p></body></html>
+me | <html dir="ltr"><head></head><body contenteditable="true"><h1>me</h1><p><span style="font-family: &quot;&quot;;">của tôi</span></p></body></html>

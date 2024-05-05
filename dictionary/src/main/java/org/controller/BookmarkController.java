@@ -1,4 +1,5 @@
 package org.controller;
 
-public class BookmarkController {
+public class BookmarkController extends GeneralController{
+
 }

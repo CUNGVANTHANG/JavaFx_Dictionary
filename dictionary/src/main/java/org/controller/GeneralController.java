@@ -5,7 +5,9 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.web.HTMLEditor;
 import javafx.scene.web.WebView;
+import org.base.Voice;
 
 import java.net.URL;
 import java.util.HashMap;
@@ -20,6 +22,9 @@ public class GeneralController extends MainController {
     protected ListView searchList;
     @FXML
     protected TextField searchField;
+
+    @FXML
+    protected HTMLEditor modifyEditor;
 
     @FXML
     protected Button clearBtn;
@@ -45,6 +50,12 @@ public class GeneralController extends MainController {
     @FXML
     protected TextArea explainArea;
 
+    @FXML
+    protected Button langToBtn;
+
+    @FXML
+    protected Button langFromBtn;
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
@@ -52,10 +63,14 @@ public class GeneralController extends MainController {
 
     @Override
     public void handleEvent() {
-        pronunciationBtn.setOnAction(event -> handlePronunciation());
+
     }
 
-    public void handlePronunciation() {
-        System.out.println("1222");
+    public void handlePronunciation(String text) {
+        try {
+            Voice.speakWord(text);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 }
