@@ -3,8 +3,10 @@ package org.controller;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
@@ -43,6 +45,7 @@ public class MainController implements Initializable {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/search.fxml"));
             searchPane = loader.load();
+            searchPane.getStylesheets().add(getClass().getResource("/css/search.css").toExternalForm());
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -50,6 +53,7 @@ public class MainController implements Initializable {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/translate.fxml"));
             translatePane = loader.load();
+            translatePane.getStylesheets().add(getClass().getResource("/css/translate.css").toExternalForm());
         } catch (IOException e) {
             e.printStackTrace();
         }

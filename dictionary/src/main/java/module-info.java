@@ -3,6 +3,7 @@ module dictionary {
     requires javafx.controls;
     requires java.sql;
     requires javafx.web;
+    requires javafx.graphics;
     requires java.desktop;
     requires voicerss.tts;
 

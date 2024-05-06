@@ -25,4 +25,17 @@ public class Translate {
         in.close();
         return response.toString();
     }
+
+    public static void main(String[] args) {
+        Thread translateThread = new Thread(() -> {
+            try {
+                String result = googleTranslate("en", "vi", "Hello"); // Gọi phương thức translate với các tham số tương ứng
+                System.out.println("Translation result: " + result); // In kết quả dịch
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+
+        translateThread.start();
+    }
 }

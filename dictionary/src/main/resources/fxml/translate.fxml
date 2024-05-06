@@ -6,66 +6,73 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
 
-<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.controller.TranslateController">
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.controller.TranslateController">
    <children>
-      <VBox prefHeight="600.0" prefWidth="400.0">
+      <VBox layoutX="-3.0" prefHeight="600.0" prefWidth="420.0">
          <children>
-            <HBox prefHeight="32.0" prefWidth="400.0">
+            <HBox prefHeight="43.0" prefWidth="408.0">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="140.0" text="Phát hiện ngôn ngữ">
+                  <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="140.0" text="Tiếng Anh">
                      <HBox.margin>
-                        <Insets left="30.0" />
-                     </HBox.margin></Button>
-                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="80.0" text="Tiếng Anh" />
-                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="80.0" text="Tiếng Việt">
-                     <HBox.margin>
-                        <Insets right="30.0" />
-                     </HBox.margin></Button>
+                        <Insets left="100.0" top="12.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="pronunciationBtn" mnemonicParsing="false" prefHeight="38.0" prefWidth="60.0">
+                     <graphic>
+                        <SVGPath content="M28 41.45v-3.1q4.85-1.4 7.925-5.375T39 23.95q0-5.05-3.05-9.05-3.05-4-7.95-5.35v-3.1q6.2 1.4 10.1 6.275Q42 17.6 42 23.95t-3.9 11.225Q34.2 40.05 28 41.45ZM6 30V18h8L24 8v32L14 30Zm21 2.4V15.55q2.75.85 4.375 3.2T33 24q0 2.85-1.65 5.2T27 32.4Zm-6-16.8L15.35 21H9v6h6.35L21 32.45ZM16.3 24Z" />
+                     </graphic>
+                  </Button>
                </children>
                <VBox.margin>
-                  <Insets left="20.0" right="20.0" top="20.0" />
+                  <Insets top="12.0" />
                </VBox.margin>
             </HBox>
-            <VBox prefHeight="360.0" prefWidth="360.0">
+            <VBox prefHeight="526.0" prefWidth="420.0">
                <VBox.margin>
-                  <Insets left="20.0" right="20.0" top="20.0" />
+                  <Insets />
                </VBox.margin>
                <children>
-                  <TextArea fx:id="targetArea" prefHeight="360.0" prefWidth="360.0" />
-               </children>
-            </VBox>
-            <Button fx:id="pronunciationBtn" mnemonicParsing="false" text="Phát âm" />
-         </children>
-      </VBox>
-      <VBox layoutX="400.0" prefHeight="600.0" prefWidth="400.0">
-         <children>
-            <HBox prefHeight="32.0" prefWidth="400.0">
-               <children>
-                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="140.0" text="Phát hiện ngôn ngữ">
-                     <HBox.margin>
-                        <Insets left="30.0" />
-                     </HBox.margin></Button>
-                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="80.0" text="Tiếng Anh" />
-                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="80.0" text="Tiếng Việt">
-                     <HBox.margin>
-                        <Insets right="30.0" />
-                     </HBox.margin></Button>
-               </children>
-               <VBox.margin>
-                  <Insets left="20.0" right="20.0" top="20.0" />
-               </VBox.margin>
-            </HBox>
-            <VBox prefHeight="360.0" prefWidth="360.0">
-               <VBox.margin>
-                  <Insets left="20.0" right="20.0" top="20.0" />
-               </VBox.margin>
-               <children>
-                  <TextArea fx:id="explainArea" prefHeight="359.0" prefWidth="360.0" />
+                  <TextArea fx:id="targetArea" prefHeight="530.0" prefWidth="420.0">
+                     <VBox.margin>
+                        <Insets bottom="12.0" top="12.0" />
+                     </VBox.margin></TextArea>
                </children>
             </VBox>
          </children>
       </VBox>
-      <Button fx:id="translateBtn" mnemonicParsing="false" text="Dịch" />
+      <VBox layoutX="460.0" prefHeight="600.0" prefWidth="420.0">
+         <children>
+            <HBox prefHeight="32.0" prefWidth="400.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="140.0" text="Tiếng Việt">
+                     <HBox.margin>
+                        <Insets left="100.0" top="12.0" />
+                     </HBox.margin></Button>
+                  <Button fx:id="pronunciationBtn" mnemonicParsing="false" prefHeight="38.0" prefWidth="60.0">
+                     <graphic>
+                        <SVGPath content="M28 41.45v-3.1q4.85-1.4 7.925-5.375T39 23.95q0-5.05-3.05-9.05-3.05-4-7.95-5.35v-3.1q6.2 1.4 10.1 6.275Q42 17.6 42 23.95t-3.9 11.225Q34.2 40.05 28 41.45ZM6 30V18h8L24 8v32L14 30Zm21 2.4V15.55q2.75.85 4.375 3.2T33 24q0 2.85-1.65 5.2T27 32.4Zm-6-16.8L15.35 21H9v6h6.35L21 32.45ZM16.3 24Z" />
+                     </graphic>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets top="12.0" />
+               </VBox.margin>
+            </HBox>
+            <VBox prefHeight="526.0" prefWidth="420.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <TextArea fx:id="explainArea" prefHeight="536.0" prefWidth="420.0">
+                     <VBox.margin>
+                        <Insets bottom="12.0" top="12.0" />
+                     </VBox.margin></TextArea>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <Button fx:id="translateBtn" layoutX="381.0" layoutY="274.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="106.0" text="Dịch" />
    </children>
 </AnchorPane>

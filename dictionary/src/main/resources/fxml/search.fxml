@@ -1,32 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
 <?import javafx.scene.web.HTMLEditor?>
 <?import javafx.scene.web.WebView?>
 
 <AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.controller.SearchController">
    <children>
-      <AnchorPane prefHeight="600.0" prefWidth="260.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <AnchorPane layoutY="20.0" prefHeight="560.0" prefWidth="287.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="20.0">
          <children>
-            <HBox prefHeight="36.0" prefWidth="248.0">
+            <HBox prefHeight="46.0" prefWidth="270.0" styleClass="searchBox">
                <children>
-                  <TextField fx:id="searchField" prefHeight="36.0" prefWidth="248.0" />
-                  <Button fx:id="clearBtn" mnemonicParsing="false" prefHeight="39.0" prefWidth="24.0" text="x" />
-                  <AnchorPane prefHeight="36.0" prefWidth="63.0">
-                     <children>
-                        <Button fx:id="searchBtn" mnemonicParsing="false" prefHeight="36.0" prefWidth="52.0" text="Search" />
-                     </children>
-                  </AnchorPane>
+                  <TextField fx:id="searchField" prefHeight="45.0" prefWidth="179.0" styleClass="searchField">
+                     <HBox.margin>
+                        <Insets right="8.0" />
+                     </HBox.margin></TextField>
+                  <Button fx:id="clearBtn" mnemonicParsing="false" prefHeight="45.0" prefWidth="35.0" styleClass="clearBtn">
+                     <graphic>
+                        <SVGPath content="M40,60 C42,48 44,30 25,32" />
+                     </graphic></Button>
+                  <Button fx:id="searchBtn" mnemonicParsing="false" prefHeight="48.0" prefWidth="38.0" styleClass="searchBtn" textAlignment="CENTER">
+                     <graphic>
+                        <SVGPath content="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z" styleClass="searchSVG" />
+                     </graphic>
+                     <font>
+                        <Font name="System Bold" size="1.0" />
+                     </font>
+                  </Button>
                </children>
             </HBox>
-            <VBox layoutY="43.0" prefHeight="516.0" prefWidth="248.0">
+            <VBox layoutY="55.0" prefHeight="504.0" prefWidth="270.0">
                <children>
-                  <ListView fx:id="searchList" prefHeight="516.0" prefWidth="248.0" styleClass="listview" />
+                  <ListView fx:id="searchList" prefHeight="495.0" prefWidth="262.0" styleClass="listview" />
                </children>
             </VBox>
          </children></AnchorPane>
@@ -34,16 +46,33 @@
          <children>
             <AnchorPane prefHeight="560.0" prefWidth="500.0">
                <children>
-                  <WebView fx:id="searchView" prefHeight="560.0" prefWidth="500.0" visible="false" />
-                  <HTMLEditor fx:id="modifyEditor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="-1.0" prefHeight="560.0" prefWidth="502.0" visible="false" />
-                  <Button fx:id="pronunciationBtn" layoutX="258.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="86.0" text="Phát âm" />
-                  <HBox layoutX="344.0" prefHeight="36.0" prefWidth="156.0">
+                  <WebView fx:id="searchView" prefHeight="560.0" prefWidth="599.0" visible="false" />
+                  <HTMLEditor fx:id="modifyEditor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="-1.0" prefHeight="560.0" prefWidth="600.0" visible="false" />
+
+                  <HBox layoutX="391.0" prefHeight="49.0" prefWidth="199.0" AnchorPane.topAnchor="0.0">
                      <children>
-                        <Button fx:id="addBtn" mnemonicParsing="false" prefHeight="38.0" prefWidth="52.0" text="Thêm" />
-                        <Button fx:id="modifyBtn" mnemonicParsing="false" prefHeight="37.0" prefWidth="52.0" text="Sửa" />
-                        <Button fx:id="removeBtn" mnemonicParsing="false" prefHeight="37.0" prefWidth="52.0" text="Xóa" />
+                        <Button fx:id="pronunciationBtn" mnemonicParsing="false" prefHeight="21.0" prefWidth="52.0" styleClass="pronunciationBtn">
+                           <graphic>
+                              <SVGPath content="M28 41.45v-3.1q4.85-1.4 7.925-5.375T39 23.95q0-5.05-3.05-9.05-3.05-4-7.95-5.35v-3.1q6.2 1.4 10.1 6.275Q42 17.6 42 23.95t-3.9 11.225Q34.2 40.05 28 41.45ZM6 30V18h8L24 8v32L14 30Zm21 2.4V15.55q2.75.85 4.375 3.2T33 24q0 2.85-1.65 5.2T27 32.4Zm-6-16.8L15.35 21H9v6h6.35L21 32.45ZM16.3 24Z" styleClass="pronunciationSVG" />
+                           </graphic>
+                        </Button>
+                        <Button fx:id="addBtn" mnemonicParsing="false" prefHeight="45.0" prefWidth="63.0" styleClass="addBtn">
+                           <graphic>
+                              <SVGPath content="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 ZM 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z" />
+                           </graphic></Button>
+                        <Button fx:id="modifyBtn" mnemonicParsing="false" prefHeight="23.0" prefWidth="54.0" styleClass="modifyBtn">
+                           <graphic>
+                              <SVGPath content="M9 39h2.2l22.15-22.15-2.2-2.2L9 36.8Zm30.7-24.3-6.4-6.4 2.1-2.1q.85-.85 2.1-.85t2.1.85l2.2 2.2q.85.85.85 2.1t-.85 2.1Zm-2.1 2.1L12.4 42H6v-6.4l25.2-25.2Zm-5.35-1.05-1.1-1.1 2.2 2.2Z" styleClass="modifySVG" />
+                           </graphic>
+                        </Button>
+                        <Button fx:id="removeBtn" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" styleClass="removeBtn">
+                           <graphic>
+                              <SVGPath content="M13.05 42q-1.2 0-2.1-.9-.9-.9-.9-2.1V10.5H8v-3h9.4V6h13.2v1.5H40v3h-2.05V39q0 1.2-.9 2.1-.9.9-2.1.9Zm21.9-31.5h-21.9V39h21.9Zm-16.6 24.2h3V14.75h-3Zm8.3 0h3V14.75h-3Zm-13.6-24.2V39Z" styleClass="removeSVG" />
+                           </graphic></Button>
                      </children>
                   </HBox>
+                  <Button fx:id="cancel" layoutX="539.0" layoutY="5.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="52.0" text="X" visible="false" />
+                  <Button fx:id="save" layoutX="481.0" layoutY="5.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="52.0" text="Save" visible="false" />
                </children>
             </AnchorPane>
          </children></AnchorPane>
