@@ -7,21 +7,22 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.controller.TranslateController">
    <children>
-      <VBox layoutX="-3.0" prefHeight="600.0" prefWidth="420.0">
+      <VBox layoutX="-3.0" prefHeight="600.0" prefWidth="432.0">
          <children>
             <HBox prefHeight="43.0" prefWidth="408.0">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="140.0" text="Tiếng Anh">
+                  <Button mnemonicParsing="false" prefHeight="45.0" prefWidth="140.0" text="Tiếng Anh">
                      <HBox.margin>
-                        <Insets left="100.0" top="12.0" />
+                        <Insets left="120.0" right="8.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="pronunciationBtn" mnemonicParsing="false" prefHeight="38.0" prefWidth="60.0">
+                  <Button fx:id="pronunciationBtn" mnemonicParsing="false" prefHeight="38.0" prefWidth="60.0" styleClass="pronunciationBtn">
                      <graphic>
-                        <SVGPath content="M28 41.45v-3.1q4.85-1.4 7.925-5.375T39 23.95q0-5.05-3.05-9.05-3.05-4-7.95-5.35v-3.1q6.2 1.4 10.1 6.275Q42 17.6 42 23.95t-3.9 11.225Q34.2 40.05 28 41.45ZM6 30V18h8L24 8v32L14 30Zm21 2.4V15.55q2.75.85 4.375 3.2T33 24q0 2.85-1.65 5.2T27 32.4Zm-6-16.8L15.35 21H9v6h6.35L21 32.45ZM16.3 24Z" />
+                        <SVGPath content="M28 41.45v-3.1q4.85-1.4 7.925-5.375T39 23.95q0-5.05-3.05-9.05-3.05-4-7.95-5.35v-3.1q6.2 1.4 10.1 6.275Q42 17.6 42 23.95t-3.9 11.225Q34.2 40.05 28 41.45ZM6 30V18h8L24 8v32L14 30Zm21 2.4V15.55q2.75.85 4.375 3.2T33 24q0 2.85-1.65 5.2T27 32.4Zm-6-16.8L15.35 21H9v6h6.35L21 32.45ZM16.3 24Z" styleClass="pronunciationSVG" />
                      </graphic>
                   </Button>
                </children>
@@ -29,30 +30,33 @@
                   <Insets top="12.0" />
                </VBox.margin>
             </HBox>
-            <VBox prefHeight="526.0" prefWidth="420.0">
+            <VBox prefHeight="546.0" prefWidth="432.0">
                <VBox.margin>
                   <Insets />
                </VBox.margin>
                <children>
-                  <TextArea fx:id="targetArea" prefHeight="530.0" prefWidth="420.0">
+                  <TextArea fx:id="targetArea" prefHeight="530.0" prefWidth="432.0">
                      <VBox.margin>
                         <Insets bottom="12.0" top="12.0" />
-                     </VBox.margin></TextArea>
+                     </VBox.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
                </children>
             </VBox>
          </children>
       </VBox>
-      <VBox layoutX="460.0" prefHeight="600.0" prefWidth="420.0">
+      <VBox layoutX="450.0" prefHeight="600.0" prefWidth="432.0">
          <children>
             <HBox prefHeight="32.0" prefWidth="400.0">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="140.0" text="Tiếng Việt">
+                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="140.0" text="Tiếng Việt">
                      <HBox.margin>
-                        <Insets left="100.0" top="12.0" />
+                        <Insets left="120.0" right="8.0" />
                      </HBox.margin></Button>
-                  <Button fx:id="pronunciationBtn" mnemonicParsing="false" prefHeight="38.0" prefWidth="60.0">
+                  <Button fx:id="pronunciationBtn" mnemonicParsing="false" prefHeight="38.0" prefWidth="60.0" styleClass="pronunciationBtn">
                      <graphic>
-                        <SVGPath content="M28 41.45v-3.1q4.85-1.4 7.925-5.375T39 23.95q0-5.05-3.05-9.05-3.05-4-7.95-5.35v-3.1q6.2 1.4 10.1 6.275Q42 17.6 42 23.95t-3.9 11.225Q34.2 40.05 28 41.45ZM6 30V18h8L24 8v32L14 30Zm21 2.4V15.55q2.75.85 4.375 3.2T33 24q0 2.85-1.65 5.2T27 32.4Zm-6-16.8L15.35 21H9v6h6.35L21 32.45ZM16.3 24Z" />
+                        <SVGPath content="M28 41.45v-3.1q4.85-1.4 7.925-5.375T39 23.95q0-5.05-3.05-9.05-3.05-4-7.95-5.35v-3.1q6.2 1.4 10.1 6.275Q42 17.6 42 23.95t-3.9 11.225Q34.2 40.05 28 41.45ZM6 30V18h8L24 8v32L14 30Zm21 2.4V15.55q2.75.85 4.375 3.2T33 24q0 2.85-1.65 5.2T27 32.4Zm-6-16.8L15.35 21H9v6h6.35L21 32.45ZM16.3 24Z" styleClass="pronunciationSVG" />
                      </graphic>
                   </Button>
                </children>
@@ -60,7 +64,7 @@
                   <Insets top="12.0" />
                </VBox.margin>
             </HBox>
-            <VBox prefHeight="526.0" prefWidth="420.0">
+            <VBox prefHeight="547.0" prefWidth="432.0">
                <VBox.margin>
                   <Insets />
                </VBox.margin>
@@ -68,11 +72,21 @@
                   <TextArea fx:id="explainArea" prefHeight="536.0" prefWidth="420.0">
                      <VBox.margin>
                         <Insets bottom="12.0" top="12.0" />
-                     </VBox.margin></TextArea>
+                     </VBox.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
                </children>
             </VBox>
          </children>
       </VBox>
-      <Button fx:id="translateBtn" layoutX="381.0" layoutY="274.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="106.0" text="Dịch" />
+      <Button fx:id="translateBtn" layoutX="333.0" layoutY="14.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="204.0" styleClass="translateBtn" text="Dịch">
+         <graphic>
+            <SVGPath content="M235.57178,214.21094l-56-112a4.00006,4.00006,0,0,0-7.15528,0l-22.854,45.708a92.04522,92.04522,0,0,1-55.57275-20.5752A99.707,99.707,0,0,0,123.90723,60h28.08691a4,4,0,0,0,0-8h-60V32a4,4,0,0,0-8,0V52h-60a4,4,0,0,0,0,8h91.90772a91.74207,91.74207,0,0,1-27.91895,62.03357A91.67371,91.67371,0,0,1,65.23389,86.667a4,4,0,0,0-7.542,2.668,99.63009,99.63009,0,0,0,24.30469,38.02075A91.5649,91.5649,0,0,1,23.99414,148a4,4,0,0,0,0,8,99.54451,99.54451,0,0,0,63.99951-23.22461,100.10427,100.10427,0,0,0,57.65479,22.97192L116.4165,214.21094a4,4,0,1,0,7.15528,3.57812L138.46631,188H213.522l14.89453,29.78906a4,4,0,1,0,7.15528-3.57812ZM142.46631,180l33.52783-67.05566L209.522,180Z" styleClass="translateSVG" />
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

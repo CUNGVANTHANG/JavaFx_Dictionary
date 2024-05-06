@@ -6,23 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2075fd60-9d4b-4efc-b22f-177a8d751490" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/controlsfx-8.40.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/app/dictionaryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/app/dictionaryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/Translate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/Translate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/GeneralController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/GeneralController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/QuizController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/BookmarkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/BookmarkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/HistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/HistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/SettingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/databases/dictionaries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/databases/dictionaries.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/bookmark.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/bookmark.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/game.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/history.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/history.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/translate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/translate.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/main.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/search.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/setting.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/translate.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/translate.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,44 +42,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App_game.executor": "Run",
-    "Application.DictionaryCommandLine.executor": "Run",
-    "Application.HistoryController.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainController.executor": "Run",
-    "Application.TextToSpeech.executor": "Run",
-    "Application.Translate.executor": "Run",
-    "Application.TranslateAPI.executor": "Run",
-    "Application.Voice.executor": "Run",
-    "Application.VoiceRSS.executor": "Run",
-    "Application.dictionaryApplication.executor": "Run",
-    "JAR Application.sqlite-jdbc-3.45.2.0.jar.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "cungvanthang",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/lib/voicerss_tts.jar",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2765531",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App_game.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DictionaryCommandLine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HistoryController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextToSpeech.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Translate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TranslateAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Voice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VoiceRSS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dictionaryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.sqlite-jdbc-3.45.2.0.jar.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cungvanthang&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/lib/voicerss_tts.jar&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2765531&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\fxml" />
@@ -243,6 +234,7 @@
       <workItem from="1714912182346" duration="25960000" />
       <workItem from="1714956583526" duration="8738000" />
       <workItem from="1714965558521" duration="12488000" />
+      <workItem from="1715005151870" duration="4837000" />
     </task>
     <servers />
   </component>

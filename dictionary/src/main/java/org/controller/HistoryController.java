@@ -1,35 +1,18 @@
 package org.controller;
 
+import java.net.URL;
+import java.util.ResourceBundle;
+
 public class HistoryController extends GeneralController  {
 
-//    @Override
-//    public void initialize(URL url, ResourceBundle resourceBundle) {
-//        importSearchHistory();
-//    }
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
 
-//    public void importSearchHistory() {
-//        System.out.println(Colors.WHITE + "Loading from File...");
-//
-//        try {
-//            FileReader fileReader = new FileReader(DictionaryManagement.getAbsolutePath(FILE_HISTORY_PATH));
-//            BufferedReader bufferedReader = new BufferedReader(fileReader);
-//
-//            String line;
-//            while ((line = bufferedReader.readLine()) != null) {
-//                searchHistory.add(line);
-//            }
-//
-//            fileReader.close();
-//            bufferedReader.close();
-//        } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
+    }
 
-//    public void exportSearchHistory(String result) {
-//        searchHistory.add(result);
-//    }
+    @Override
+    public void handleEvent() {
+
+    }
 
 }

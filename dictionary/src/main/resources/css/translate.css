@@ -1,0 +1,19 @@
+.translateSVG {
+    -fx-scale-x: 0.2 !important;
+    -fx-scale-y: 0.2 !important;
+}
+
+.pronunciationSVG {
+    -fx-scale-x: 0.6 !important;
+    -fx-scale-y: 0.6 !important;
+}
+
+.translateBtn {
+    -fx-min-width: 16px;
+    -fx-min-height: 16px;
+    -fx-background-color: none;
+}
+
+.pronunciationBtn {
+    -fx-background-color: none;
+}
