@@ -6,8 +6,8 @@ import java.util.*;
 
 public class DictionaryManagement extends Dictionary {
     private static final String SQLITE_PATH = "/src/main/resources/databases/dictionaries.db";
+    private static String FILE_PATH = "/src/main/resources/databases/dictionaries.txt";
 
-    // Lấy đường dẫn tuyệt đối
     public static String getAbsolutePath(String filePath) {
         // Get absolute path
         String currentDirectory = System.getProperty("user.dir");
@@ -20,7 +20,7 @@ public class DictionaryManagement extends Dictionary {
         System.out.println(Colors.WHITE + "Loading from File...");
         try {
             // File Reader
-            FileReader fileReader = new FileReader(getAbsolutePath(getFilePath()));
+            FileReader fileReader = new FileReader(getAbsolutePath(FILE_PATH));
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             String line;
@@ -109,7 +109,7 @@ public class DictionaryManagement extends Dictionary {
     public static void dictionaryExportToFile() {
         System.out.println(Colors.WHITE + "Export to File...");
         try {
-            FileWriter fileWriter = new FileWriter(getAbsolutePath(getFilePath()));
+            FileWriter fileWriter = new FileWriter(getAbsolutePath(FILE_PATH));
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
             for (Word word : dictionary.values()) {

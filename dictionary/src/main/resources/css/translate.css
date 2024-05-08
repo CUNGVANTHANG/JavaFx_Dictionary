@@ -17,3 +17,9 @@
 .pronunciationBtn {
     -fx-background-color: none;
 }
+
+.langToBox,
+.langFromBox {
+    -fx-font-size: 16px;
+    -fx-background-color: none;
+}

@@ -1,9 +1,6 @@
 package org.base;
 
-import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class Bookmark extends DictionaryManagement {
     private static String FILE_PATH = "/src/main/resources/databases/bookmark.txt";
@@ -25,12 +22,35 @@ public class Bookmark extends DictionaryManagement {
         }
     }
 
-    public static String getFilePath() {
-        return FILE_PATH;
-    }
+    public static void insertFromFile() {
+        System.out.println(Colors.WHITE + "Loading from File...");
+        try {
+            // File Reader
+            FileReader fileReader = new FileReader(getAbsolutePath(FILE_PATH));
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
 
-    public static void setFilePath(String filePath) {
-        FILE_PATH = filePath;
-    }
+            String line;
 
+            while ((line = bufferedReader.readLine()) != null) {
+                String word_explain = "";
+                String word_target = "";
+
+                if (line.indexOf("|") != -1) {
+                    word_target += line.substring(0, line.indexOf(" |"));
+                    word_explain += line.substring(line.indexOf("|") + 2);
+                    dictionary.put(word_target.toLowerCase(), new Word(word_target, word_explain));
+                } else {
+                    word_target += line;
+                    dictionary.put(word_target.toLowerCase(), new Word(word_target, null));
+                }
+            }
+            // File Close
+            fileReader.close();
+            bufferedReader.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

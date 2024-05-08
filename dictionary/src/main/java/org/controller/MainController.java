@@ -3,10 +3,9 @@ package org.controller;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
-import javafx.stage.Stage;
+import org.base.DictionaryManagement;
 
 import java.io.IOException;
 import java.net.URL;
@@ -96,6 +95,7 @@ public class MainController implements Initializable {
     public void handleEvent() {
         searchBtn.setOnMouseClicked(event -> {
             mainPane.getChildren().setAll(searchPane);
+            DictionaryManagement.insertFromFile();
         });
 
         translateBtn.setOnMouseClicked(event -> {

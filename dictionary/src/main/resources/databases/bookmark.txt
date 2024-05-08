@@ -1,2 +1,3 @@
 a-pac-thai | <h1>a-pac-thai</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>apartheid</li></ul>
 a-d converter circuit | <html dir="ltr"><head></head><body contenteditable="true"><h1>A-D converter circuit</h1><h3><i>//</i></h3><ul><li>(Tech) mạch đổi sóng</li></ul></body></html>
+book | quyển sách
