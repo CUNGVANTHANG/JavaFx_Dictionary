@@ -1,22 +1,13 @@
-&nbsp;day | <html dir="ltr"><head></head><body contenteditable="true"><h1>a priori<span style="font-size: xx-large;">&nbsp;day</span></h1><h3><i>//</i></h3><ul><li>tiên nghiệm</li><li>minh bi</li></ul></body></html>
-&nbsp;y | <html dir="ltr"><head></head><body contenteditable="true"><h1>a fortiori<span style="font-size: xx-large;">&nbsp;y</span></h1><h3><i>//</i></h3><ul><li>lại càng hay</li></ul></body></html>
-<h1><span style="font-family: &quot;&quot;;">book</span> | <html dir="ltr"><head></head><body contenteditable="true"><h1><span style="font-family: &quot;&quot;;">book</span></h1></body></html>
-<h1><span style="font-family: &quot;&quot;;">book</span></h1> | <html dir="ltr"><head></head><body contenteditable="true"><h1><span style="font-family: &quot;&quot;;">book</span></h1></body></html>
-<h1><span style="font-family: &quot;&quot;;">tieng</span></h1> | <html dir="ltr"><head></head><body contenteditable="true"><h1><span style="font-family: &quot;&quot;;">tieng</span></h1></body></html>
-<h1>Từ</h1> | <html dir="ltr"><head></head><body contenteditable="true"><h1>Từ</h1></body></html>
+a | mot
 a b c &nbsp;d | <html dir="ltr"><head></head><body contenteditable="true"><h1><span style="font-family: &quot;&quot;;">a b c &nbsp;d</span></h1><h3><i>/'eibi:'si:/</i></h3><h2>danh từ</h2><ul><li>bảng chữ cái</li><li>khái niệm cơ sở, cơ sở<ul style="list-style-type:circle"><li>a_b_c of chemistry:<i> khái niệm cơ sở về hoá học, cơ sở hoá học</i></li></ul></li><li>(ngành đường sắt)</li></ul></body></html>
 A except B gate | <html dir="ltr"><head></head><body contenteditable="true"><h1>A except B gate</h1><h3><i>//</i></h3><ul><li>(Tech) cổng A loại trừ B</li></ul></body></html>
 A ignore B gate | <html dir="ltr"><head></head><body contenteditable="true"><h1>A ignore B gate</h1><h3><i>//</i></h3><ul><li>(Tech) cổng A không biết gì hết</li></ul></body></html>
-a la mode | <html dir="ltr"><head></head><body contenteditable="true"><h1>a la mode&nbsp;</h1><h1><i>/,ɑ:lə'moud/</i></h1><h2>phó từ</h2><ul><li>hợp thời trang, đúng m</li></ul></body></html>
-a posteriori  dd | <html dir="ltr"><head></head><body contenteditable="true"><h1>a posteriori &nbsp; dd</h1><h3><i>//</i></h3><ul><li>hậu nghi</li></ul></body></html>
 a priori | <html dir="ltr"><head></head><body contenteditable="true"><h1><span style="font-family: &quot;&quot;;">a priori</span></h1><h3><i>//</i></h3><ul><li>tiên</li><li>minh</li><li>tien</li></ul></body></html>
 A-D = E a | <html dir="ltr"><head></head><body contenteditable="true"><h1>A-D = E &nbsp;a</h1><h3><i>/D = a-d (analog-to-digital)/</i></h3><ul><li>(Tech) đổi  dạng sóng (dạng tương tự) sang dạng số</li></ul></body></html>
-A-D conversion | <h1>A-D conversion</h1><h3><i>//</i></h3><ul><li>(Tech) đổi sóng (tương tự) - số</li></ul>
-A-D converter circuit | <h1>A-D converter circuit</h1><h3><i>//</i></h3><ul><li>(Tech) mạch đổi sóng-số</li></ul>
+A-D converter circuit | <html dir="ltr"><head></head><body contenteditable="true"><h1>A-D converter circuit</h1><h3><i>//</i></h3><ul><li>(Tech) mạch đổi sóng</li></ul></body></html>
 a-going | <h1>a-going</h1><h3><i>/ə'gouiɳ/</i></h3><h2>tính từ & phó từ</h2><ul><li>đang chạy, đang chuyển động; đang hoạt động, đang tiến hành<ul style="list-style-type:circle"><li>to set a-going:<i> cho chuyển động, cho chạy (máy...)</i></li></ul></li></ul>
-a-okok | <html dir="ltr"><head></head><body contenteditable="true"><h1>a-okok</h1><h3><i>//</i></h3>* tính từ<br><ul><li><mỹ,khng> giống như OK nhấn mạnh</mỹ,khng></li></ul></body></html>
 a-pac-thai | <h1>a-pac-thai</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>apartheid</li></ul>
-a-plenty | <h1>a-plenty</h1><h3><i>/ə'plenti/</i></h3><h2>phó từ</h2><ul><li>(từ Mỹ,nghĩa Mỹ) nhiều, dồi dào, phong phú</li></ul>
+a-plenty | <html dir="ltr"><head></head><body contenteditable="true"><h1>a-plenty</h1><h3><i>/ə'plenti/</i></h3><h2>phó từ</h2><p><ul><li>(từ Mỹ,nghĩa Mỹ) nhiều, dồi dào, phong phú</li></ul><p><br></p><p><br></p><p><br></p><p><br></p><p><ol><li>hello</li></ol></p></p></body></html>
 a-point | <h1>a-point</h1><h3><i>//</i></h3><ul><li>(giải tích) a- điểm</li></ul>
 a-power | <h1>a-power</h1><h3><i>/'ei'pauə/</i></h3><h2>danh từ</h2><ul><li>năng lượng nguyên tử</li><li>cường quốc nguyên tử</li></ul>
 a-road | <h1>a-road</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>đường lớn, không quan trọng bằng xa lộ, nhưng rộng và thẳng hơn đường loại B</li></ul>
@@ -32,7 +23,6 @@ aard-wolf | <h1>aard-wolf</h1><h3><i>/'ɑ:d,wulf/</i></h3><h2>danh từ</h2><ul>
 aardvark | <h1>aardvark</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>(động vật) lợn đất</li></ul>
 aardwolf | <h1>aardwolf</h1><h3><i>//</i></h3>* danh từ<br/><ul><li><động> chó sói đất (Nam Phi)</li></ul>
 aasvogel | <h1>aasvogel</h1><h3><i>/'ɑ:sfougəl/</i></h3><h2>danh từ</h2><ul><li>(động vật học) con kên kên (Nam Phi)</li></ul>
-ab | <h1>ab</h1><h3><i>//</i></h3><ul><li>(vt của able-bodied seaman) thủy thủ hạng nhất</li><li>(vt của Bachelor of Arts) Cử nhân văn chương</li></ul>
 aba | <h1>aba</h1><h3><i>/'ɑ:bə/</i></h3><h2>danh từ</h2><ul><li>áo aba (áo ngoài giống hình cái túi người A-Rập)</li></ul>
 abac, abacus | <h1>abac, abacus</h1><h3><i>//</i></h3><ul><li>bàn tính, toán đồ, bản đồ tính</li></ul>
 abaca | <h1>abaca</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>vải dệt bằng tơ chuối abaca ở philipin</li><li>cây chuối abaca</li></ul>
@@ -42,11 +32,13 @@ aback | <h1>aback</h1><h3><i>/ə'bæk/</i></h3><h2>phó từ</h2><ul><li>lùi l�
 abacterial | <h1>abacterial</h1><h3><i>//</i></h3>* tính từ<br/><ul><li>không do vi khuẩn gây ra</li></ul>
 abaction | <h1>abaction</h1><h3><i>//</i></h3>* danh từ<br/><ul><li>(từ pháp) việc gia súc bị bắt trộm</li></ul>
 abactus | <h1>abactus</h1><h3><i>//</i></h3>* tính từ<br/><ul><li>bị trụy thai</li></ul>
-book | <html dir="ltr"><head></head><body contenteditable="true"><h1>book</h1><p><span style="font-family: &quot;&quot;;">quyển sách ngu vãi</span></p></body></html>
+book | <html dir="ltr"><head></head><body contenteditable="true"><h1>book</h1><p><span style="font-family: &quot;&quot;;">quyển sách ngu</span></p></body></html>
 boy | <html dir="ltr"><head></head><body contenteditable="true"><h1>boy</h1><p><span style="font-weight: bold; font-family: &quot;&quot;;">contrai</span></p></body></html>
 bsđ | <html dir="ltr"><head></head><body contenteditable="true"><h1>a la ca<span style="font-size: xx-large;">bsđ</span></h1><h3><i>/'ɑ:lɑ:'kɑ:t/</i></h3><h2>phó từ</h2><ul><li>theo món, gọi theo món, đặt theo món<ul style="list-style-type:circle"><li>to dine a_la_carte:<i>&nbsp;</i></li><li><i>today</i></li></ul></li></ul></body></html>
 go | <html dir="ltr"><head></head><body contenteditable="true"><h1>go</h1><p><span style="font-weight: 700; font-family: &quot;&quot;;">đi</span></p></body></html>
+good | <html dir="ltr"><head></head><body contenteditable="true"><h1>good</h1></body></html>
 hello | <html dir="ltr"><head></head><body contenteditable="true"><h1>hello</h1><p><span style="font-family: &quot;&quot;;">xin chao</span></p></body></html>
 hi | <html dir="ltr"><head></head><body contenteditable="true"><h1>hi</h1><p><span style="font-family: &quot;&quot;;">xin chào bố</span></p></body></html>
 me | <html dir="ltr"><head></head><body contenteditable="true"><h1>me</h1><p><span style="font-family: &quot;&quot;;">của tôi</span></p></body></html>
+o | <html dir="ltr"><head></head><body contenteditable="true"><h1>o</h1><p><span style="font-family: &quot;&quot;;">ooo handle</span></p><p><span style="font-family: &quot;&quot;;"><br></span></p></body></html>
 txt | <html dir="ltr"><head></head><body contenteditable="true"><h1>txt</h1><p><span style="font-weight: bold; font-family: &quot;&quot;;">hhhh</span></p></body></html>

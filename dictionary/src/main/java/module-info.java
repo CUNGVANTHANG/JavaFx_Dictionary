@@ -3,9 +3,8 @@ module dictionary {
     requires javafx.controls;
     requires java.sql;
     requires javafx.web;
-    requires javafx.graphics;
-    requires java.desktop;
-    requires voicerss.tts;
+    requires json.simple;
+    requires jlayer;
 
     opens org.controller to javafx.fxml, javafx.controls, javafx.web;
     exports org.controller;

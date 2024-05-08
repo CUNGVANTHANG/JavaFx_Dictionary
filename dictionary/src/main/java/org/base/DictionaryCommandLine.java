@@ -1,7 +1,5 @@
 package org.base;
 
-import java.util.ArrayList;
-import java.util.Map;
 import java.util.Scanner;
 
 public class DictionaryCommandLine extends Dictionary {
@@ -19,16 +17,6 @@ public class DictionaryCommandLine extends Dictionary {
     public static void dictionaryBasic() {
         DictionaryManagement.insertFromCommandline();
         showAllWords();
-    }
-
-    public static ArrayList<String> dictionarySearcher(String prefix) {
-        ArrayList<String> resultList = new ArrayList<>(dictionary
-                .subMap(prefix, prefix + Character.MAX_VALUE)
-                .keySet()
-                .stream()
-                .toList());
-
-        return resultList;
     }
 
     public static void dictionaryAdvanced() {
@@ -89,7 +77,7 @@ public class DictionaryCommandLine extends Dictionary {
                 case 6:
                     System.out.print(Colors.RED + "Enter the word you want to research: ");
                     word_target = input.nextLine();
-                    for (String word : dictionarySearcher(word_target)) {
+                    for (String word : DictionaryManagement.dictionarySearcher(word_target)) {
                         System.out.println(Colors.YELLOW + word);
                     }
                     break;

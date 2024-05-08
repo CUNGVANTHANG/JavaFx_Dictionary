@@ -1,0 +1,20 @@
+What is the capital of Japan? | A. Tokyo | B. Seoul | C. Beijing | D. Bangkok | A
+Who painted the Mona Lisa? | A. Vincent van Gogh | B. Leonardo da Vinci | C. Pablo Picasso | D. Michelangelo | B
+What is the currency of India? | A. Yen | B. Rupee | C. Euro | D. Dollar | B
+What is the chemical symbol for gold? | A. Go | B. Au | C. Ag | D. Ge | B
+What year did the Titanic sink? | A. 1912 | B. 1905 | C. 1920 | D. 1933 | A
+Who wrote "To Kill a Mockingbird"? | A. J.K. Rowling | B. Harper Lee | C. George Orwell | D. William Shakespeare | B
+What is the largest mammal in the world? | A. Elephant | B. Giraffe | C. Blue whale | D. Polar bear | C
+What is the largest planet in our solar system? | A. Earth | B. Mars | C. Jupiter | D. Saturn | C
+What is the main ingredient in guacamole? | A. Avocado | B. Tomato | C. Onion | D. Potato | A
+Who is known as the father of modern physics? | A. Isaac Newton | B. Albert Einstein | C. Galileo Galilei | D. Stephen Hawking | B
+What is the tallest mammal in the world? | A. Giraffe | B. Elephant | C. Rhinoceros | D. Hippopotamus | A
+What is the chemical symbol for oxygen? | A. O2 | B. O | C. Ox | D. Om | B
+Who discovered penicillin? | A. Alexander Fleming | B. Louis Pasteur | C. Marie Curie | D. Robert Koch | A
+What is the fastest land animal? | A. Cheetah | B. Lion | C. Gazelle | D. Leopard | A
+What is the boiling point of water in Celsius? | A. 100 | B. 0 | C. 50 | D. 200 | A
+What is the largest ocean on Earth? | A. Atlantic Ocean | B. Indian Ocean | C. Arctic Ocean | D. Pacific Ocean | D
+Who wrote "Romeo and Juliet"? | A. William Shakespeare | B. Charles Dickens | C. Jane Austen | D. Mark Twain | A
+What is the chemical symbol for sodium? | A. Na | B. So | C. Sa | D. Sd | A
+What is the capital of Australia? | A. Sydney | B. Canberra | C. Melbourne | D. Brisbane | B
+Who is known as the "Father of Medicine"? | A. Hippocrates | B. Aristotle | C. Socrates | D. Plato | A

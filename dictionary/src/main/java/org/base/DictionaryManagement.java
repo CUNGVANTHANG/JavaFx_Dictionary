@@ -5,7 +5,6 @@ import java.sql.*;
 import java.util.*;
 
 public class DictionaryManagement extends Dictionary {
-    private static final String FILE_PATH = "/src/main/resources/databases/dictionaries.txt";
     private static final String SQLITE_PATH = "/src/main/resources/databases/dictionaries.db";
 
     // Lấy đường dẫn tuyệt đối
@@ -21,12 +20,11 @@ public class DictionaryManagement extends Dictionary {
         System.out.println(Colors.WHITE + "Loading from File...");
         try {
             // File Reader
-            FileReader fileReader = new FileReader(getAbsolutePath(FILE_PATH));
+            FileReader fileReader = new FileReader(getAbsolutePath(getFilePath()));
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             String line;
 
-            // Add Words from File to the Dictionary - Complexity o(n)
             while ((line = bufferedReader.readLine()) != null) {
                 String word_explain = "";
                 String word_target = "";
@@ -111,7 +109,7 @@ public class DictionaryManagement extends Dictionary {
     public static void dictionaryExportToFile() {
         System.out.println(Colors.WHITE + "Export to File...");
         try {
-            FileWriter fileWriter = new FileWriter(getAbsolutePath(FILE_PATH));
+            FileWriter fileWriter = new FileWriter(getAbsolutePath(getFilePath()));
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
             for (Word word : dictionary.values()) {
@@ -171,6 +169,16 @@ public class DictionaryManagement extends Dictionary {
         } else {
             return null;
         }
+    }
+
+    public static ArrayList<String> dictionarySearcher(String prefix) {
+        ArrayList<String> resultList = new ArrayList<>(dictionary
+                .subMap(prefix, prefix + Character.MAX_VALUE)
+                .keySet()
+                .stream()
+                .toList());
+
+        return resultList;
     }
 
     public static void dictionaryUpdate() {

@@ -7,29 +7,32 @@ import javafx.scene.control.*;
 import javafx.scene.web.HTMLEditor;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
-import org.base.DictionaryCommandLine;
+import org.base.Bookmark;
 import org.base.DictionaryManagement;
-import org.base.Voice;
+import org.base.GoogleVoice;
 
-import java.net.URL;
 import java.util.Optional;
-import java.util.ResourceBundle;
 
-// Dùng để xử lý tac vụ
 public class GeneralController extends MainController {
-    // search.fxml
+    protected static boolean isModify = false;
+
+    // Search
     @FXML
     protected WebView searchView;
     @FXML
     protected ListView searchList;
     @FXML
     protected TextField searchField;
-
-    @FXML
-    protected HTMLEditor modifyEditor;
-
     @FXML
     protected Button clearBtn;
+    @FXML
+    protected Button bookmarkBtn;
+
+    // Pronunciation
+    @FXML
+    protected Button pronunciationBtn;
+
+    // Add - Modify - Remove
     @FXML
     protected Button addBtn;
     @FXML
@@ -37,52 +40,129 @@ public class GeneralController extends MainController {
     @FXML
     protected Button removeBtn;
     @FXML
-    protected Button pronunciationBtn;
-
-
-
-
-    // History
-//    protected HashMap<>
-
-    // Settings
-
-    // Translate
-    @FXML
-    protected TextArea targetArea;
-
-    @FXML
-    protected TextArea explainArea;
-
-    @FXML
-    protected Button langToBtn;
-
-    @FXML
-    protected Button langFromBtn;
-
+    protected HTMLEditor modifyEditor;
     @FXML
     protected Button save;
-
     @FXML
     protected Button cancel;
 
-    protected static boolean isModify = false;
-
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-        handleEvent();
-    }
-
     @Override
     public void handleEvent() {
+        // Event:
+        searchField.textProperty().addListener(event -> {
+            handleSearch();
+        });
 
+        // Event: Mouse Click -> handleLookup()
+        searchList.setOnMouseClicked(event -> {
+            if (event.getClickCount() == 1) {
+                String selectedWord = (String) searchList.getSelectionModel().getSelectedItem();
+                if (selectedWord != null) {
+                    searchField.setText(selectedWord);
+                    handleLookup();
+                }
+            }
+        });
+
+        // Event: Key UP, Key DOWN -> Get data
+        // Event: Key ENTER -> handleLookup()
+        searchField.setOnKeyPressed(event -> {
+            int currentIndex = searchList.getSelectionModel().getSelectedIndex();
+            String selectedWord = (String) searchList.getSelectionModel().getSelectedItem();
+            switch (event.getCode()) {
+                case UP:
+                    if (currentIndex > 0) {
+                        searchList.getSelectionModel().select(currentIndex - 1);
+                    }
+                    break;
+                case DOWN:
+                    if (currentIndex < searchList.getItems().size() - 1) {
+                        searchList.getSelectionModel().select(currentIndex + 1);
+                    }
+                    break;
+                case ENTER:
+                    if (currentIndex >= 0 && currentIndex <= searchList.getItems().size() - 1) {
+                        searchField.setText(selectedWord);
+                        handleLookup();
+                    }
+                default:
+                    break;
+            }
+        });
+
+        // Event:
+        searchField.setOnAction(event -> {
+            if (!searchField.getText().equals("")) {
+                handleLookup();
+            }
+        });
+
+        // Event: Click Clear Button -> Clear
+        clearBtn.setOnAction(event -> {
+            searchField.setText("");
+            searchView.setVisible(false);
+        });
+
+        // Event: Click Search Button -> handleLookup()
+        searchBtn.setOnAction(event -> {
+            if (!searchField.getText().equals("")) {
+                handleLookup();
+            }
+        });
+
+        pronunciationBtn.setOnAction(event -> {
+            if (searchView.isVisible()) {
+                handlePronunciation("en", searchField.getText());
+            }
+        });
+
+        addBtn.setOnAction(event -> {
+            handleAddWord();
+        });
+
+        modifyBtn.setOnAction(event -> {
+            handleModifyWord();
+        });
+
+        removeBtn.setOnAction(event -> {
+            handleRemoveWord();
+            isModify = false;
+        });
+
+        save.setOnAction(event -> {
+            if (isModify) {
+                handleModifyWord();
+            } else {
+                handleAddWord();
+            }
+        });
+
+        cancel.setOnAction(event -> {
+            modifyEditor.setVisible(false);
+            searchView.setVisible(true);
+            save.setVisible(false);
+            cancel.setVisible(false);
+            addBtn.setVisible(true);
+            modifyBtn.setVisible(true);
+            removeBtn.setVisible(true);
+            pronunciationBtn.setVisible(true);
+        });
+
+        bookmarkBtn.setOnAction(event -> {
+            String result = DictionaryManagement.dictionaryLookup(searchField.getText());
+            Bookmark.bookmarkExportToFile(searchField.getText(), result);
+        });
     }
 
-    public void handlePronunciation(String text) {
+    public void handleStyle() {
+        searchView.addEventFilter(javafx.scene.input.MouseEvent.ANY, javafx.event.Event::consume);
+    }
+
+    public void handlePronunciation(String language,String text) {
         try {
-            Voice.speakWord(text);
+            GoogleVoice.speak(language, text);
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
@@ -102,7 +182,7 @@ public class GeneralController extends MainController {
     public void handleSearch() {
         String searchText = searchField.getText();
         if (searchText != null && !searchText.isEmpty()) {
-            ObservableList<String> searchHistory = FXCollections.observableArrayList(DictionaryCommandLine.dictionarySearcher(searchText));
+            ObservableList<String> searchHistory = FXCollections.observableArrayList(DictionaryManagement.dictionarySearcher(searchText));
 
             int maxItemsToShow = 50;
             ObservableList<String> limitedSearchHistory = FXCollections.observableArrayList();
@@ -118,9 +198,7 @@ public class GeneralController extends MainController {
     }
 
     public void handleAddWord() {
-        System.out.println("Đang thực hiện add");
         isModify = false;
-        System.out.println(isModify);
         if (!modifyEditor.isVisible()) {
             TextInputDialog dialog = new TextInputDialog();
             dialog.setTitle("Thêm từ mới");
@@ -152,7 +230,9 @@ public class GeneralController extends MainController {
                 } else {
                     save.setVisible(true);
                     cancel.setVisible(true);
+
                     addBtn.setVisible(false);
+                    bookmarkBtn.setVisible(false);
                     modifyBtn.setVisible(false);
                     removeBtn.setVisible(false);
                     pronunciationBtn.setVisible(false);
@@ -165,6 +245,7 @@ public class GeneralController extends MainController {
             save.setVisible(false);
             cancel.setVisible(false);
             addBtn.setVisible(true);
+            bookmarkBtn.setVisible(true);
             modifyBtn.setVisible(true);
             removeBtn.setVisible(true);
             pronunciationBtn.setVisible(true);
@@ -175,9 +256,7 @@ public class GeneralController extends MainController {
     }
 
     public void handleModifyWord() {
-        System.out.println("Đang thực hiện modify");
         isModify = true;
-        System.out.println(isModify);
 
         boolean isEditing = modifyEditor.isVisible();
         String result = DictionaryManagement.dictionaryLookup(searchField.getText());
@@ -189,6 +268,7 @@ public class GeneralController extends MainController {
                 modifyEditor.setVisible(true);
                 save.setVisible(true);
                 cancel.setVisible(true);
+                bookmarkBtn.setVisible(false);
                 addBtn.setVisible(false);
                 modifyBtn.setVisible(false);
                 removeBtn.setVisible(false);
@@ -239,6 +319,7 @@ public class GeneralController extends MainController {
                 save.setVisible(false);
                 cancel.setVisible(false);
                 addBtn.setVisible(true);
+                bookmarkBtn.setVisible(true);
                 modifyBtn.setVisible(true);
                 removeBtn.setVisible(true);
                 pronunciationBtn.setVisible(true);

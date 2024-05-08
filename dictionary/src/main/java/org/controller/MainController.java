@@ -17,9 +17,9 @@ public class MainController implements Initializable {
     // main.fxml
     @FXML
     protected Button searchBtn;
-
     @FXML
     protected Button translateBtn;
+
     @FXML
     private Button gameBtn;
     @FXML
@@ -68,6 +68,7 @@ public class MainController implements Initializable {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/bookmark.fxml"));
             bookmarkPane = loader.load();
+            bookmarkPane.getStylesheets().add(getClass().getResource("/css/search.css").toExternalForm());
         } catch (IOException e) {
             e.printStackTrace();
         }
