@@ -6,21 +6,21 @@ import java.util.Collections;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Bookmark extends DictionaryManagement {
-    protected static String FILE_PATH = "/src/main/resources/databases/bookmark.txt";
+public class History extends DictionaryManagement {
+    protected static String FILE_PATH = "/src/main/resources/databases/history.txt";
 
     public static void insertFromFile() {
         insertFromFile(FILE_PATH);
     }
 
     public static void addWord(String word_target, String word_explain) {
-        ArrayList<String> bookmark = new ArrayList<>();
+        ArrayList<String> history = new ArrayList<>();
         try {
             FileReader fileReader = new FileReader(DictionaryManagement.getAbsolutePath(FILE_PATH));
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String line;
             while ((line = bufferedReader.readLine()) != null) {
-                bookmark.add(line);
+                history.add(line);
             }
             fileReader.close();
             bufferedReader.close();
@@ -32,15 +32,15 @@ public class Bookmark extends DictionaryManagement {
             FileWriter fileWriter = new FileWriter(DictionaryManagement.getAbsolutePath(FILE_PATH));
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
-            for (int i = 0; i < bookmark.size(); i++) {
-                if (bookmark.get(i).substring(0, bookmark.get(i).indexOf(" | ")).trim().equals(word_target)) {
-                    bookmark.remove(i);
+            for (int i = 0; i < history.size(); i++) {
+                if (history.get(i).substring(0, history.get(i).indexOf(" | ")).trim().equals(word_target)) {
+                    history.remove(i);
                 }
             }
 
-            bookmark.add(word_target + " | " + word_explain);
+            history.add(word_target + " | " + word_explain);
 
-            for (String word : bookmark) {
+            for (String word : history) {
                 bufferedWriter.write(word + "\n");
             }
 
@@ -50,10 +50,6 @@ public class Bookmark extends DictionaryManagement {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-
-    public static void dictionaryExportToFile() {
-        dictionaryExportToFile(FILE_PATH);
     }
 
     public static void removeWord(String word_target) {
@@ -67,14 +63,18 @@ public class Bookmark extends DictionaryManagement {
         dictionaryExportToFile();
     }
 
-    public static ArrayList<String> showBookmark() {
+    public static void dictionaryExportToFile() {
+        dictionaryExportToFile(FILE_PATH);
+    }
+
+    public static ArrayList<String> showHistory() {
         ArrayList<String> result = new ArrayList<>();
         try {
             FileReader fileReader = new FileReader(getAbsolutePath(FILE_PATH));
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String line;
             while ((line = bufferedReader.readLine()) != null) {
-                result.add(line.substring(0, line.indexOf(" | ")).trim() + "\n");
+                result.add(line.substring(0, line.indexOf(" | ")).trim());
             }
             fileReader.close();
             bufferedReader.close();
@@ -86,5 +86,4 @@ public class Bookmark extends DictionaryManagement {
 
         return result;
     }
-
 }

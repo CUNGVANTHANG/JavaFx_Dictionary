@@ -10,6 +10,7 @@ import javafx.scene.web.WebView;
 import org.base.Bookmark;
 import org.base.DictionaryManagement;
 import org.base.GoogleVoice;
+import org.base.History;
 
 import java.util.Optional;
 
@@ -115,43 +116,6 @@ public class GeneralController extends MainController {
                 handlePronunciation("en", searchField.getText());
             }
         });
-
-        addBtn.setOnAction(event -> {
-            handleAddWord();
-        });
-
-        modifyBtn.setOnAction(event -> {
-            handleModifyWord();
-        });
-
-        removeBtn.setOnAction(event -> {
-            handleRemoveWord();
-            isModify = false;
-        });
-
-        save.setOnAction(event -> {
-            if (isModify) {
-                handleModifyWord();
-            } else {
-                handleAddWord();
-            }
-        });
-
-        cancel.setOnAction(event -> {
-            modifyEditor.setVisible(false);
-            searchView.setVisible(true);
-            save.setVisible(false);
-            cancel.setVisible(false);
-            addBtn.setVisible(true);
-            modifyBtn.setVisible(true);
-            removeBtn.setVisible(true);
-            pronunciationBtn.setVisible(true);
-        });
-
-        bookmarkBtn.setOnAction(event -> {
-            String result = DictionaryManagement.dictionaryLookup(searchField.getText());
-            Bookmark.bookmarkExportToFile(searchField.getText(), result);
-        });
     }
 
     public void handleStyle() {
@@ -177,6 +141,7 @@ public class GeneralController extends MainController {
         }
 
         searchField.positionCaret(searchField.getText().length());
+        History.addWord(searchField.getText(), result);
     }
 
     public void handleSearch() {

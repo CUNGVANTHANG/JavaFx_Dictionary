@@ -5,7 +5,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
+import org.base.Bookmark;
+import org.base.Dictionary;
 import org.base.DictionaryManagement;
+import org.base.History;
 
 import java.io.IOException;
 import java.net.URL;
@@ -75,6 +78,7 @@ public class MainController implements Initializable {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/history.fxml"));
             historyPane = loader.load();
+            historyPane.getStylesheets().add(getClass().getResource("/css/search.css").toExternalForm());
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -88,33 +92,54 @@ public class MainController implements Initializable {
 
         // Khởi tạo mặc định hiển thị search.fxml khi khởi động chương trình
         mainPane.getChildren().setAll(searchPane);
+        DictionaryManagement.insertFromFile();
 
         handleEvent();
     }
 
     public void handleEvent() {
         searchBtn.setOnMouseClicked(event -> {
+            DictionaryManagement.dictionaryClear();
+            Bookmark.dictionaryClear();
+            History.dictionaryClear();
             mainPane.getChildren().setAll(searchPane);
             DictionaryManagement.insertFromFile();
         });
 
         translateBtn.setOnMouseClicked(event -> {
+            DictionaryManagement.dictionaryClear();
+            Bookmark.dictionaryClear();
+            History.dictionaryClear();
             mainPane.getChildren().setAll(translatePane);
         });
 
         gameBtn.setOnMouseClicked(event -> {
+            DictionaryManagement.dictionaryClear();
+            Bookmark.dictionaryClear();
+            History.dictionaryClear();
             mainPane.getChildren().setAll(gamePane);
         });
 
         bookmarkBtn.setOnMouseClicked(event -> {
+            DictionaryManagement.dictionaryClear();
+            Bookmark.dictionaryClear();
+            History.dictionaryClear();
             mainPane.getChildren().setAll(bookmarkPane);
+            Bookmark.insertFromFile();
         });
 
         historyBtn.setOnMouseClicked(event -> {
+            DictionaryManagement.dictionaryClear();
+            Bookmark.dictionaryClear();
+            History.dictionaryClear();
             mainPane.getChildren().setAll(historyPane);
+            History.insertFromFile();
         });
 
         settingBtn.setOnMouseClicked(event -> {
+            DictionaryManagement.dictionaryClear();
+            Bookmark.dictionaryClear();
+            History.dictionaryClear();
             mainPane.getChildren().setAll(settingPane);
         });
     }
