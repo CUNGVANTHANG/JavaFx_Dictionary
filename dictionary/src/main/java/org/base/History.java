@@ -6,8 +6,6 @@ import java.util.Collections;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-// Local: cungvanthang main
-
 public class History extends DictionaryManagement {
     protected static String FILE_PATH = "/src/main/resources/databases/history.txt";
 

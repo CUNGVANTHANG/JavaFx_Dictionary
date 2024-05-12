@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2075fd60-9d4b-4efc-b22f-177a8d751490" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/base/History.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58b1c218-caff-4b73-89f9-1b8305675953.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58b1c218-caff-4b73-89f9-1b8305675953.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/Bookmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/Bookmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/DictionaryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/BookmarkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/BookmarkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/GeneralController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/GeneralController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/HistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/HistoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/History.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/search.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/databases/bookmark.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/databases/bookmark.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/databases/dictionaries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/databases/dictionaries.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/databases/history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/databases/history.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/bookmark.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/bookmark.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/game.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/history.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/history.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/quiz.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/search.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/search.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,6 +248,7 @@
       <workItem from="1715365868896" duration="4536000" />
       <workItem from="1715434698096" duration="8304000" />
       <workItem from="1715446081378" duration="5435000" />
+      <workItem from="1715524062537" duration="796000" />
     </task>
     <servers />
   </component>

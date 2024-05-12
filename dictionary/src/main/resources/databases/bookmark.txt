@@ -1,3 +1,4 @@
 a b c | <h1>a b c</h1><h3><i>/'eibi:'si:/</i></h3><h2>danh từ</h2><ul><li>bảng chữ cái</li><li>khái niệm cơ sở, cơ sở<ul style="list-style-type:circle"><li>a_b_c of chemistry:<i> khái niệm cơ sở về hoá học, cơ sở hoá học</i></li></ul></li><li>(ngành đường sắt) bảng chỉ đường theo abc</li></ul>
 a la carte | <h1>a la carte</h1><h3><i>/'ɑ:lɑ:'kɑ:t/</i></h3><h2>phó từ</h2><ul><li>theo món, gọi theo món, đặt theo món<ul style="list-style-type:circle"><li>to dine a_la_carte:<i> ăn cơm gọi theo món</i></li></ul></li></ul>
 book | <h1>book</h1><h3><i>//</i></h3><ul><li>sách</li></ul>
+play | <h1>play</h1><h3><i>//</i></h3><ul><li>(lý thuyết trò chơi) trò chơi, cuộc đấu</li></ul>

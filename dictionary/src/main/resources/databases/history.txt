@@ -1,6 +1,14 @@
-a b c | <h1>a b c</h1><h3><i>/'eibi:'si:/</i></h3><h2>danh từ</h2><ul><li>bảng chữ cái</li><li>khái niệm cơ sở, cơ sở<ul style="list-style-type:circle"><li>a_b_c of chemistry:<i> khái niệm cơ sở về hoá học, cơ sở hoá học</i></li></ul></li><li>(ngành đường sắt) bảng chỉ đường theo abc</li></ul>
 book | <h1>book</h1><h3><i>//</i></h3><ul><li>sách</li></ul>
-a la carte | <h1>a la carte</h1><h3><i>/'ɑ:lɑ:'kɑ:t/</i></h3><h2>phó từ</h2><ul><li>theo món, gọi theo món, đặt theo món<ul style="list-style-type:circle"><li>to dine a_la_carte:<i> ăn cơm gọi theo món</i></li></ul></li></ul>
 a la mode | <h1>a la mode</h1><h3><i>/,ɑ:lə'moud/</i></h3><h2>phó từ</h2><ul><li>hợp thời trang, đúng mốt</li></ul>
 a b c - book | <h1>a b c - book</h1><h3><i>/'eibi:'si:buk/</i></h3><h2>danh từ</h2><ul><li>sách vỡ lòng, sách học vần</li></ul>
 v-e day | <h1>v-e day</h1><h3><i>/'vi:'i:dei/</i></h3><h2>danh từ</h2><ul><li>ngày chiến thắng quân Đức (trong đại chiến II)</li></ul>
+a ignore b gate | <h1>A ignore B gate</h1><h3><i>//</i></h3><ul><li>(Tech) cổng A không biết B</li></ul>
+s | <html dir="ltr"><head></head><body contenteditable="true"><h1>s</h1><h3><i>/es/</i></h3><h2>danh từ,  số nhiều Ss,  S's</h2><ul><li>S</li><li>đường cong hình S; vật hình S</li></ul></body></html>
+s-o-b | <h1>s-o-b</h1><h3><i>/sɔb/</i></h3><h2>danh từ,  số nhiều s-o-b's</h2><ul><li>(từ Mỹ,nghĩa Mỹ),  (thông tục) ((viết tắt) của son of a bitch) đồ chó đẻ</li></ul>
+a | <html dir="ltr"><head></head><body contenteditable="true"><h1><span style="font-size: xx-large; font-family: &quot;&quot;;">a</span></h1><h3><i>/c/</i></h3><ul><li>(vt của account current) tài khoản vãng lai (tức là bằng séc)</li><li>có nghĩa giống như nghĩa của account</li></ul></body></html>
+play | <h1>play</h1><h3><i>//</i></h3><ul><li>(lý thuyết trò chơi) trò chơi, cuộc đấu</li></ul>
+a sửa | <html dir="ltr"><head></head><body contenteditable="true"><h1><span style="font-size: xx-large; font-family: &quot;&quot;;">a sửa</span></h1><h3><i>/c/</i></h3><ul><li>(vt của account current) tài khoản vãng lai (tức là bằng séc)</li><li>có nghĩa giống như nghĩa của account</li><li>sửa</li></ul></body></html>
+thang | <html dir="ltr"><head></head><body contenteditable="true"><h1>thang</h1><p></p><ul><li>Thang</li><li>Linh</li><li>Hieu</li></ul><p><span style="font-family: &quot;&quot;;">Thang</span></p><p><span style="font-family: &quot;&quot;;">Linh</span></p><p><span style="font-family: &quot;&quot;;">Hieu</span></p><p></p></body></html>
+a except b gate | <h1>A except B gate</h1><h3><i>//</i></h3><ul><li>(Tech) cổng A loại trừ B</li></ul>
+a la carte | <h1>a la carte</h1><h3><i>/'ɑ:lɑ:'kɑ:t/</i></h3><h2>phó từ</h2><ul><li>theo món, gọi theo món, đặt theo món<ul style="list-style-type:circle"><li>to dine a_la_carte:<i> ăn cơm gọi theo món</i></li></ul></li></ul>
+a b c | <h1>a b c</h1><h3><i>/'eibi:'si:/</i></h3><h2>danh từ</h2><ul><li>bảng chữ cái</li><li>khái niệm cơ sở, cơ sở<ul style="list-style-type:circle"><li>a_b_c of chemistry:<i> khái niệm cơ sở về hoá học, cơ sở hoá học</i></li></ul></li><li>(ngành đường sắt) bảng chỉ đường theo abc</li></ul>
