@@ -31,11 +31,11 @@ public class MainController implements Initializable {
     @FXML
     private Button settingBtn;
     @FXML
-    private AnchorPane mainPane;
+    protected AnchorPane mainPane;
 
     private AnchorPane searchPane;
     private AnchorPane translatePane;
-    private AnchorPane gamePane;
+    protected AnchorPane gamePane;
     private AnchorPane bookmarkPane;
     private AnchorPane historyPane;
     private AnchorPane settingPane;

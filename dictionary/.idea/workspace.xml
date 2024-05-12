@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2075fd60-9d4b-4efc-b22f-177a8d751490" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/base/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/base/QuizGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/base/SpellingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/controller/QuizGameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/controller/SpellingGameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/quizGame.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/quizGame.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/spellingGame.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/History.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/databases/bookmark.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/databases/bookmark.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/databases/dictionaries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/databases/dictionaries.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/databases/history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/databases/history.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/voicerss_tts.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/base/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/base/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/controller/QuizController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/databases/quiz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/databases/quizGame.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/game.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/game.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +31,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="FxmlFile" />
         <option value="CSS File" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -38,54 +48,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App_game.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DictionaryCommandLine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Game.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GoogleTranslate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GoogleVoice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HistoryController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TextToSpeech.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Translate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TranslateAPI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Voice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VoiceRSS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.dictionaryApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.base.DictionaryCommandLine.executor&quot;: &quot;Run&quot;,
-    &quot;JAR Application.sqlite-jdbc-3.45.2.0.jar.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/src/main/resources/fxml&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2765531&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App_game.executor": "Run",
+    "Application.DictionaryCommandLine.executor": "Run",
+    "Application.Game.executor": "Run",
+    "Application.GoogleTranslate.executor": "Run",
+    "Application.GoogleVoice.executor": "Run",
+    "Application.HistoryController.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainController.executor": "Run",
+    "Application.QuizGameController.executor": "Run",
+    "Application.TextToSpeech.executor": "Run",
+    "Application.Translate.executor": "Run",
+    "Application.TranslateAPI.executor": "Run",
+    "Application.Voice.executor": "Run",
+    "Application.VoiceRSS.executor": "Run",
+    "Application.dictionaryApplication.executor": "Run",
+    "Application.org.base.DictionaryCommandLine.executor": "Run",
+    "JAR Application.sqlite-jdbc-3.45.2.0.jar.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/src/main/resources/databases",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/PC/Desktop/HK2/GROUP11-UETOASIS/dictionary/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2765531",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\databases" />
       <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\fxml" />
       <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\java\org" />
       <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\java\org\controller" />
-      <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\resources\databases" />
       <recent name="C:\Users\PC\Desktop\HK2\GROUP11-UETOASIS\dictionary\src\main\java\org\base" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -110,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleTranslate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.base.GoogleTranslate" />
+    <configuration name="GoogleVoice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.base.GoogleVoice" />
       <module name="dictionary" />
       <extension name="coverage">
         <pattern>
@@ -123,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleVoice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.base.GoogleVoice" />
+    <configuration name="QuizGameController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.controller.QuizGameController" />
       <module name="dictionary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.commandline.*" />
+          <option name="PATTERN" value="org.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,10 +176,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.dictionaryApplication" />
+        <item itemvalue="Application.QuizGameController" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.org.base.DictionaryCommandLine" />
         <item itemvalue="Application.GoogleVoice" />
-        <item itemvalue="Application.GoogleTranslate" />
       </list>
     </recent_temporary>
   </component>
@@ -249,6 +260,7 @@
       <workItem from="1715434698096" duration="8304000" />
       <workItem from="1715446081378" duration="5435000" />
       <workItem from="1715524062537" duration="796000" />
+      <workItem from="1715525329287" duration="6582000" />
     </task>
     <servers />
   </component>
